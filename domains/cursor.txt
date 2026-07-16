@@ -1,0 +1,12 @@
+# Cursor IDE
+api2.cursor.sh
+api3.cursor.sh
+api4.cursor.sh
+repo42.cursor.sh
+cursor.sh
+www.cursor.sh
+cursor.com
+www.cursor.com
+downloads.cursor.com
+marketplace.cursorapi.com
+cursor-cdn.com

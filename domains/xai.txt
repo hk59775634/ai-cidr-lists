@@ -1,0 +1,5 @@
+# xAI / Grok
+api.x.ai
+x.ai
+grok.x.ai
+console.x.ai

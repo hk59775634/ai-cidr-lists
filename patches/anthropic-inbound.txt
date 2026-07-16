@@ -1,0 +1,5 @@
+# Anthropic official inbound IPv4 (Claude API / Console).
+# Source: https://platform.claude.com/docs/en/api/ip-addresses
+# Clients connecting TO Anthropic land in this range.
+# Reviewed: 2026-07-16
+160.79.104.0/23

@@ -1,0 +1,131 @@
+{
+  "lists": {
+    "google": {
+      "description": "Google public IPv4 ranges (includes Gemini / Google AI infra; broad)",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "text_url",
+          "id": "goog_ipv4_only",
+          "url": "https://www.gstatic.com/ipranges/goog_ipv4_only.txt",
+          "note": "Official Google IPv4-only list; not Gemini-exclusive"
+        },
+        {
+          "type": "resolve",
+          "id": "google_ai_domains",
+          "domains_file": "domains/google-ai.txt"
+        }
+      ]
+    },
+    "anthropic": {
+      "description": "Anthropic Claude API / Console inbound + resolved API domains",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "static_file",
+          "id": "anthropic_inbound_docs",
+          "path": "patches/anthropic-inbound.txt",
+          "note": "Official inbound IPv4 from Anthropic docs (clients connect TO these)"
+        },
+        {
+          "type": "resolve",
+          "id": "anthropic_domains",
+          "domains_file": "domains/anthropic.txt"
+        }
+      ]
+    },
+    "openai": {
+      "description": "OpenAI / ChatGPT destinations via DNS resolve (no official inbound CIDR list)",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "openai_domains",
+          "domains_file": "domains/openai.txt",
+          "note": "OpenAI publishes egress (bot→you) ranges, not API destination ranges"
+        }
+      ]
+    },
+    "cursor": {
+      "description": "Cursor IDE / API related destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "cursor_domains",
+          "domains_file": "domains/cursor.txt"
+        }
+      ]
+    },
+    "microsoft-ai": {
+      "description": "Microsoft Copilot / Azure OpenAI related destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "microsoft_ai_domains",
+          "domains_file": "domains/microsoft-ai.txt"
+        }
+      ]
+    },
+    "perplexity": {
+      "description": "Perplexity destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "perplexity_domains",
+          "domains_file": "domains/perplexity.txt"
+        }
+      ]
+    },
+    "xai": {
+      "description": "xAI / Grok destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "xai_domains",
+          "domains_file": "domains/xai.txt"
+        }
+      ]
+    }
+  },
+  "egress_lists": {
+    "openai-egress": {
+      "description": "OpenAI published outbound ranges (connectors / agents / crawlers)",
+      "sources": [
+        {
+          "type": "openai_json",
+          "id": "chatgpt_connectors",
+          "url": "https://openai.com/chatgpt-connectors.json"
+        },
+        {
+          "type": "openai_json",
+          "id": "chatgpt_agents",
+          "url": "https://openai.com/chatgpt-agents.json"
+        },
+        {
+          "type": "openai_json",
+          "id": "gptbot",
+          "url": "https://openai.com/gptbot.json"
+        },
+        {
+          "type": "openai_json",
+          "id": "searchbot",
+          "url": "https://openai.com/searchbot.json"
+        },
+        {
+          "type": "openai_json",
+          "id": "chatgpt_user",
+          "url": "https://openai.com/chatgpt-user.json"
+        }
+      ]
+    }
+  },
+  "resolve": {
+    "resolvers": ["1.1.1.1", "8.8.8.8", "9.9.9.9"],
+    "timeout_sec": 5,
+    "retries": 2
+  }
+}

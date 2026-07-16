@@ -1,0 +1,7 @@
+# Microsoft Copilot / Azure OpenAI
+# Note: regional *.openai.azure.com hosts vary by tenant — add your own in patches/ if needed
+copilot.microsoft.com
+www.copilot.microsoft.com
+sydney.bing.com
+edgeservices.bing.com
+api.cognitive.microsoft.com

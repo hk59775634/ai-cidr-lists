@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-07-16T02:54:49Z",
+  "lists": {
+    "google": {
+      "path": "lists/google.txt",
+      "count": 129,
+      "sources": [
+        "goog_ipv4_only",
+        "google_ai_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "anthropic": {
+      "path": "lists/anthropic.txt",
+      "count": 2,
+      "sources": [
+        "anthropic_inbound_docs",
+        "anthropic_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "openai": {
+      "path": "lists/openai.txt",
+      "count": 20,
+      "sources": [
+        "openai_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "cursor": {
+      "path": "lists/cursor.txt",
+      "count": 32,
+      "sources": [
+        "cursor_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "microsoft-ai": {
+      "path": "lists/microsoft-ai.txt",
+      "count": 14,
+      "sources": [
+        "microsoft_ai_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "perplexity": {
+      "path": "lists/perplexity.txt",
+      "count": 2,
+      "sources": [
+        "perplexity_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "xai": {
+      "path": "lists/xai.txt",
+      "count": 2,
+      "sources": [
+        "xai_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "all": {
+      "path": "lists/all.txt",
+      "count": 201,
+      "sources": [
+        "anthropic",
+        "cursor",
+        "google",
+        "microsoft-ai",
+        "openai",
+        "perplexity",
+        "xai"
+      ],
+      "include_in_all": false,
+      "kind": "destination"
+    },
+    "egress/openai-egress": {
+      "path": "lists/egress/openai-egress.txt",
+      "count": 1632,
+      "sources": [
+        "chatgpt_connectors",
+        "chatgpt_agents",
+        "gptbot",
+        "searchbot",
+        "chatgpt_user"
+      ],
+      "include_in_all": false,
+      "kind": "egress"
+    }
+  },
+  "warnings": [],
+  "qosnat2": {
+    "alias_url_example": "https://raw.githubusercontent.com/<org>/ai-cidr-lists/main/lists/all.txt",
+    "notes": [
+      "Destination lists are for LAN client → AI service steering.",
+      "lists/egress/* are vendor outbound ranges (bots/connectors calling you); do not mix into WAN egress dst_alias.",
+      "Google list is intentionally broad."
+    ]
+  }
+}

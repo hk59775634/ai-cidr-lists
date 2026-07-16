@@ -1,0 +1,2 @@
+# stdlib-only build; keep empty for now.
+# Add deps here only if collectors need them.

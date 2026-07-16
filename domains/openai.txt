@@ -1,0 +1,15 @@
+# OpenAI / ChatGPT — destination hostnames for DNS resolve → /32
+api.openai.com
+chatgpt.com
+www.chatgpt.com
+chat.openai.com
+platform.openai.com
+auth.openai.com
+cdn.openai.com
+ab.chatgpt.com
+android.chat.openai.com
+ios.chat.openai.com
+o33249.ingest.sentry.io
+openaiapi-site.azureedge.net
+openaicomproductionae4b.blob.core.windows.net
+files.oaiusercontent.com

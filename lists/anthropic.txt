@@ -1,0 +1,9 @@
+# anthropic
+# Anthropic Claude API / Console inbound + resolved API domains
+# generated: 2026-07-16T02:54:49Z
+# count: 2
+# sources: anthropic_inbound_docs, anthropic_domains
+# format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
+
+160.79.104.0/23
+160.79.104.10/32
