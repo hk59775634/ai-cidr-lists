@@ -1,7 +1,7 @@
 # xai
 # xai AI destinations
-# generated: 2026-07-16T05:30:08Z
-# count: 6
+# generated: 2026-07-16T08:33:49Z
+# count: 5
 # sources: xai_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
 
@@ -10,4 +10,3 @@
 104.18.28.234/32
 104.18.29.234/32
 162.159.140.229/32
-172.66.0.227/32
