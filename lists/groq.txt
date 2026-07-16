@@ -1,6 +1,6 @@
 # groq
 # groq AI destinations
-# generated: 2026-07-16T08:33:49Z
+# generated: 2026-07-16T14:21:48Z
 # count: 1
 # sources: groq_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
