@@ -1,6 +1,6 @@
 # openai
 # OpenAI / ChatGPT destinations via DNS resolve (no official inbound CIDR list)
-# generated: 2026-07-16T02:54:49Z
+# generated: 2026-07-16T02:59:35Z
 # count: 20
 # sources: openai_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
@@ -14,8 +14,8 @@
 104.18.39.85/32
 104.18.41.241/32
 104.18.43.204/32
-150.171.110.65/32
-150.171.110.70/32
+150.171.109.73/32
+150.171.109.74/32
 162.159.140.245/32
 172.64.144.52/32
 172.64.146.15/32

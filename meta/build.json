@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-16T02:54:49Z",
+  "generated_at": "2026-07-16T02:59:35Z",
   "lists": {
     "google": {
       "path": "lists/google.txt",
-      "count": 129,
+      "count": 133,
       "sources": [
         "goog_ipv4_only",
         "google_ai_domains"
@@ -41,7 +41,7 @@
     },
     "microsoft-ai": {
       "path": "lists/microsoft-ai.txt",
-      "count": 14,
+      "count": 8,
       "sources": [
         "microsoft_ai_domains"
       ],
@@ -68,7 +68,7 @@
     },
     "all": {
       "path": "lists/all.txt",
-      "count": 201,
+      "count": 199,
       "sources": [
         "anthropic",
         "cursor",
@@ -97,7 +97,7 @@
   },
   "warnings": [],
   "qosnat2": {
-    "alias_url_example": "https://raw.githubusercontent.com/<org>/ai-cidr-lists/main/lists/all.txt",
+    "alias_url_example": "https://raw.githubusercontent.com/hk59775634/ai-cidr-lists/main/lists/all.txt",
     "notes": [
       "Destination lists are for LAN client → AI service steering.",
       "lists/egress/* are vendor outbound ranges (bots/connectors calling you); do not mix into WAN egress dst_alias.",
