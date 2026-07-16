@@ -1,0 +1,9 @@
+# mistral-ai
+# mistral-ai AI destinations
+# generated: 2026-07-16T05:29:52Z
+# count: 2
+# sources: mistral-ai_domains
+# format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
+
+162.159.142.207/32
+172.66.2.203/32

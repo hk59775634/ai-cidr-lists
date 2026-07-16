@@ -1,0 +1,9 @@
+# minimax — AI destination hostnames for DNS resolve
+# sources: manual-cn (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 4
+
+api.minimax.chat
+minimax.chat
+minimaxi.com
+www.minimaxi.com

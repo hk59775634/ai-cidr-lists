@@ -1,0 +1,7 @@
+# runway — AI destination hostnames for DNS resolve
+# sources: runway (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 2
+
+runway.com
+runwayml.com

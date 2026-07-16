@@ -1,0 +1,6 @@
+# dify — AI destination hostnames for DNS resolve
+# sources: dify (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 1
+
+dify.ai

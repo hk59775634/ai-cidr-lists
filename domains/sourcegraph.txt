@@ -1,0 +1,9 @@
+# sourcegraph — AI destination hostnames for DNS resolve
+# sources: sourcegraph (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 4
+
+ampcode.com
+ampworkers.com
+cody.dev
+sourcegraph.com

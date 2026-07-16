@@ -1,0 +1,6 @@
+# tabnine — AI destination hostnames for DNS resolve
+# sources: tabnine (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 1
+
+tabnine.com

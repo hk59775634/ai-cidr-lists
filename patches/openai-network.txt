@@ -1,0 +1,6 @@
+# openai published/network IPv4 from ai-proxy-rules
+# count: 3
+
+199.47.142.0/23
+24.199.123.28/32
+64.23.132.171/32

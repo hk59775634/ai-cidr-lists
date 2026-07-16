@@ -1,0 +1,9 @@
+# meta-ai — AI destination hostnames for DNS resolve
+# sources: meta-ai (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 4
+
+ai.meta.com
+atmeta.com
+llama.com
+meta.ai

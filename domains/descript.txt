@@ -1,0 +1,6 @@
+# descript — AI destination hostnames for DNS resolve
+# sources: descript (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 1
+
+descript.com

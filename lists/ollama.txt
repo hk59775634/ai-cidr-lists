@@ -1,0 +1,8 @@
+# ollama
+# ollama AI destinations
+# generated: 2026-07-16T05:29:52Z
+# count: 1
+# sources: ollama_domains
+# format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
+
+34.36.133.15/32

@@ -1,0 +1,9 @@
+# civitai
+# civitai AI destinations
+# generated: 2026-07-16T05:29:52Z
+# count: 2
+# sources: civitai_domains
+# format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
+
+104.20.38.219/32
+172.66.152.186/32

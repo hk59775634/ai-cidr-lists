@@ -1,0 +1,10 @@
+# windsurf
+# windsurf AI destinations
+# generated: 2026-07-16T05:29:52Z
+# count: 3
+# sources: windsurf_domains
+# format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
+
+13.215.239.219/32
+52.74.6.109/32
+76.76.21.21/32

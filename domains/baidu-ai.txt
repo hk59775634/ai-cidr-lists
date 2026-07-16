@@ -1,0 +1,8 @@
+# baidu-ai — AI destination hostnames for DNS resolve
+# sources: manual-cn (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 3
+
+aip.baidubce.com
+qianfan.cloud.baidu.com
+yiyan.baidu.com

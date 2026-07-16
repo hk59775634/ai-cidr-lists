@@ -1,0 +1,8 @@
+# senseagora — AI destination hostnames for DNS resolve
+# sources: manual-cn (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 3
+
+nova.sensetime.com
+sensechat.sensetime.com
+sensetime.com

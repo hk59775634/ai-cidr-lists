@@ -1,0 +1,7 @@
+# v0 — AI destination hostnames for DNS resolve
+# sources: v0 (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 2
+
+v0.app
+v0.dev

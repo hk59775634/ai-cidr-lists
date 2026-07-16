@@ -1,0 +1,7 @@
+# inflection — AI destination hostnames for DNS resolve
+# sources: inflection (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 2
+
+inflection.ai
+pi.ai

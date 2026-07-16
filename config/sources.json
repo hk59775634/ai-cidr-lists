@@ -1,31 +1,51 @@
 {
   "lists": {
-    "google": {
-      "description": "Google public IPv4 ranges (includes Gemini / Google AI infra; broad)",
+    "adobe-firefly": {
+      "description": "adobe-firefly AI destinations",
       "include_in_all": true,
       "sources": [
         {
-          "type": "text_url",
-          "id": "goog_ipv4_only",
-          "url": "https://www.gstatic.com/ipranges/goog_ipv4_only.txt",
-          "note": "Official Google IPv4-only list; not Gemini-exclusive"
-        },
+          "type": "resolve",
+          "id": "adobe-firefly_domains",
+          "domains_file": "domains/adobe-firefly.txt"
+        }
+      ]
+    },
+    "alibaba-ai": {
+      "description": "alibaba-ai AI destinations",
+      "include_in_all": true,
+      "sources": [
         {
           "type": "resolve",
-          "id": "google_ai_domains",
-          "domains_file": "domains/google-ai.txt"
+          "id": "alibaba-ai_domains",
+          "domains_file": "domains/alibaba-ai.txt"
+        }
+      ]
+    },
+    "amazon-q": {
+      "description": "amazon-q AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "amazon-q_domains",
+          "domains_file": "domains/amazon-q.txt"
         }
       ]
     },
     "anthropic": {
-      "description": "Anthropic Claude API / Console inbound + resolved API domains",
+      "description": "anthropic AI destinations",
       "include_in_all": true,
       "sources": [
         {
           "type": "static_file",
           "id": "anthropic_inbound_docs",
-          "path": "patches/anthropic-inbound.txt",
-          "note": "Official inbound IPv4 from Anthropic docs (clients connect TO these)"
+          "path": "patches/anthropic-inbound.txt"
+        },
+        {
+          "type": "static_file",
+          "id": "anthropic_network_cidrs",
+          "path": "patches/anthropic-network.txt"
         },
         {
           "type": "resolve",
@@ -34,20 +54,206 @@
         }
       ]
     },
-    "openai": {
-      "description": "OpenAI / ChatGPT destinations via DNS resolve (no official inbound CIDR list)",
+    "augment-code": {
+      "description": "augment-code AI destinations",
       "include_in_all": true,
       "sources": [
         {
           "type": "resolve",
-          "id": "openai_domains",
-          "domains_file": "domains/openai.txt",
-          "note": "OpenAI publishes egress (bot→you) ranges, not API destination ranges"
+          "id": "augment-code_domains",
+          "domains_file": "domains/augment-code.txt"
+        }
+      ]
+    },
+    "baichuan": {
+      "description": "baichuan AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "baichuan_domains",
+          "domains_file": "domains/baichuan.txt"
+        }
+      ]
+    },
+    "baidu-ai": {
+      "description": "baidu-ai AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "baidu-ai_domains",
+          "domains_file": "domains/baidu-ai.txt"
+        }
+      ]
+    },
+    "black-forest-labs": {
+      "description": "black-forest-labs AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "black-forest-labs_domains",
+          "domains_file": "domains/black-forest-labs.txt"
+        }
+      ]
+    },
+    "bolt": {
+      "description": "bolt AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "bolt_domains",
+          "domains_file": "domains/bolt.txt"
+        }
+      ]
+    },
+    "bytedance-ai": {
+      "description": "bytedance-ai AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "bytedance-ai_domains",
+          "domains_file": "domains/bytedance-ai.txt"
+        }
+      ]
+    },
+    "bytedance-cn": {
+      "description": "bytedance-cn AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "bytedance-cn_domains",
+          "domains_file": "domains/bytedance-cn.txt"
+        }
+      ]
+    },
+    "cerebras": {
+      "description": "cerebras AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "cerebras_domains",
+          "domains_file": "domains/cerebras.txt"
+        }
+      ]
+    },
+    "character-ai": {
+      "description": "character-ai AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "character-ai_domains",
+          "domains_file": "domains/character-ai.txt"
+        }
+      ]
+    },
+    "chutes": {
+      "description": "chutes AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "chutes_domains",
+          "domains_file": "domains/chutes.txt"
+        }
+      ]
+    },
+    "civitai": {
+      "description": "civitai AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "civitai_domains",
+          "domains_file": "domains/civitai.txt"
+        }
+      ]
+    },
+    "clipdrop": {
+      "description": "clipdrop AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "clipdrop_domains",
+          "domains_file": "domains/clipdrop.txt"
+        }
+      ]
+    },
+    "cloudflare-ai": {
+      "description": "cloudflare-ai AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "cloudflare-ai_domains",
+          "domains_file": "domains/cloudflare-ai.txt"
+        }
+      ]
+    },
+    "coderabbit": {
+      "description": "coderabbit AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "coderabbit_domains",
+          "domains_file": "domains/coderabbit.txt"
+        }
+      ]
+    },
+    "cohere": {
+      "description": "cohere AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "cohere_domains",
+          "domains_file": "domains/cohere.txt"
+        }
+      ]
+    },
+    "comfyui": {
+      "description": "comfyui AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "comfyui_domains",
+          "domains_file": "domains/comfyui.txt"
+        }
+      ]
+    },
+    "continue": {
+      "description": "continue AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "continue_domains",
+          "domains_file": "domains/continue.txt"
+        }
+      ]
+    },
+    "crewai": {
+      "description": "crewai AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "crewai_domains",
+          "domains_file": "domains/crewai.txt"
         }
       ]
     },
     "cursor": {
-      "description": "Cursor IDE / API related destinations",
+      "description": "cursor AI destinations",
       "include_in_all": true,
       "sources": [
         {
@@ -57,19 +263,514 @@
         }
       ]
     },
-    "microsoft-ai": {
-      "description": "Microsoft Copilot / Azure OpenAI related destinations",
+    "deepinfra": {
+      "description": "deepinfra AI destinations",
       "include_in_all": true,
       "sources": [
         {
           "type": "resolve",
-          "id": "microsoft_ai_domains",
+          "id": "deepinfra_domains",
+          "domains_file": "domains/deepinfra.txt"
+        }
+      ]
+    },
+    "deepseek": {
+      "description": "deepseek AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "deepseek_domains",
+          "domains_file": "domains/deepseek.txt"
+        }
+      ]
+    },
+    "descript": {
+      "description": "descript AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "descript_domains",
+          "domains_file": "domains/descript.txt"
+        }
+      ]
+    },
+    "devin": {
+      "description": "devin AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "devin_domains",
+          "domains_file": "domains/devin.txt"
+        }
+      ]
+    },
+    "dia-browser": {
+      "description": "dia-browser AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "dia-browser_domains",
+          "domains_file": "domains/dia-browser.txt"
+        }
+      ]
+    },
+    "dify": {
+      "description": "dify AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "dify_domains",
+          "domains_file": "domains/dify.txt"
+        }
+      ]
+    },
+    "duck-ai": {
+      "description": "duck-ai AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "duck-ai_domains",
+          "domains_file": "domains/duck-ai.txt"
+        }
+      ]
+    },
+    "eigent": {
+      "description": "eigent AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "eigent_domains",
+          "domains_file": "domains/eigent.txt"
+        }
+      ]
+    },
+    "elevenlabs": {
+      "description": "elevenlabs AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "elevenlabs_domains",
+          "domains_file": "domains/elevenlabs.txt"
+        }
+      ]
+    },
+    "factory": {
+      "description": "factory AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "factory_domains",
+          "domains_file": "domains/factory.txt"
+        }
+      ]
+    },
+    "fireworks-ai": {
+      "description": "fireworks-ai AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "fireworks-ai_domains",
+          "domains_file": "domains/fireworks-ai.txt"
+        }
+      ]
+    },
+    "gamma": {
+      "description": "gamma AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "gamma_domains",
+          "domains_file": "domains/gamma.txt"
+        }
+      ]
+    },
+    "genspark": {
+      "description": "genspark AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "genspark_domains",
+          "domains_file": "domains/genspark.txt"
+        }
+      ]
+    },
+    "google-ai": {
+      "description": "google-ai AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "text_url",
+          "id": "goog_ipv4_only",
+          "url": "https://www.gstatic.com/ipranges/goog_ipv4_only.txt",
+          "note": "Official Google IPv4-only list; broad"
+        },
+        {
+          "type": "resolve",
+          "id": "google-ai_domains",
+          "domains_file": "domains/google-ai.txt"
+        }
+      ]
+    },
+    "grammarly": {
+      "description": "grammarly AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "grammarly_domains",
+          "domains_file": "domains/grammarly.txt"
+        }
+      ]
+    },
+    "groq": {
+      "description": "groq AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "groq_domains",
+          "domains_file": "domains/groq.txt"
+        }
+      ]
+    },
+    "h2o-ai": {
+      "description": "h2o-ai AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "h2o-ai_domains",
+          "domains_file": "domains/h2o-ai.txt"
+        }
+      ]
+    },
+    "hermes-agent": {
+      "description": "hermes-agent AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "hermes-agent_domains",
+          "domains_file": "domains/hermes-agent.txt"
+        }
+      ]
+    },
+    "heygen": {
+      "description": "heygen AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "heygen_domains",
+          "domains_file": "domains/heygen.txt"
+        }
+      ]
+    },
+    "huggingface": {
+      "description": "huggingface AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "huggingface_domains",
+          "domains_file": "domains/huggingface.txt"
+        }
+      ]
+    },
+    "ideogram": {
+      "description": "ideogram AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "ideogram_domains",
+          "domains_file": "domains/ideogram.txt"
+        }
+      ]
+    },
+    "inflection": {
+      "description": "inflection AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "inflection_domains",
+          "domains_file": "domains/inflection.txt"
+        }
+      ]
+    },
+    "jasper": {
+      "description": "jasper AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "jasper_domains",
+          "domains_file": "domains/jasper.txt"
+        }
+      ]
+    },
+    "jetbrains-ai": {
+      "description": "jetbrains-ai AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "jetbrains-ai_domains",
+          "domains_file": "domains/jetbrains-ai.txt"
+        }
+      ]
+    },
+    "kiro": {
+      "description": "kiro AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "kiro_domains",
+          "domains_file": "domains/kiro.txt"
+        }
+      ]
+    },
+    "langchain": {
+      "description": "langchain AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "langchain_domains",
+          "domains_file": "domains/langchain.txt"
+        }
+      ]
+    },
+    "leonardo-ai": {
+      "description": "leonardo-ai AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "leonardo-ai_domains",
+          "domains_file": "domains/leonardo-ai.txt"
+        }
+      ]
+    },
+    "lmarena": {
+      "description": "lmarena AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "lmarena_domains",
+          "domains_file": "domains/lmarena.txt"
+        }
+      ]
+    },
+    "lmstudio": {
+      "description": "lmstudio AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "lmstudio_domains",
+          "domains_file": "domains/lmstudio.txt"
+        }
+      ]
+    },
+    "lovable": {
+      "description": "lovable AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "lovable_domains",
+          "domains_file": "domains/lovable.txt"
+        }
+      ]
+    },
+    "lovart": {
+      "description": "lovart AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "lovart_domains",
+          "domains_file": "domains/lovart.txt"
+        }
+      ]
+    },
+    "luma-ai": {
+      "description": "luma-ai AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "luma-ai_domains",
+          "domains_file": "domains/luma-ai.txt"
+        }
+      ]
+    },
+    "manus": {
+      "description": "manus AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "manus_domains",
+          "domains_file": "domains/manus.txt"
+        }
+      ]
+    },
+    "meta-ai": {
+      "description": "meta-ai AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "meta-ai_domains",
+          "domains_file": "domains/meta-ai.txt"
+        }
+      ]
+    },
+    "microsoft-ai": {
+      "description": "microsoft-ai AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "microsoft-ai_domains",
           "domains_file": "domains/microsoft-ai.txt"
         }
       ]
     },
+    "midjourney": {
+      "description": "midjourney AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "midjourney_domains",
+          "domains_file": "domains/midjourney.txt"
+        }
+      ]
+    },
+    "minimax": {
+      "description": "minimax AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "minimax_domains",
+          "domains_file": "domains/minimax.txt"
+        }
+      ]
+    },
+    "mistral-ai": {
+      "description": "mistral-ai AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "mistral-ai_domains",
+          "domains_file": "domains/mistral-ai.txt"
+        }
+      ]
+    },
+    "moonshot": {
+      "description": "moonshot AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "moonshot_domains",
+          "domains_file": "domains/moonshot.txt"
+        }
+      ]
+    },
+    "ollama": {
+      "description": "ollama AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "ollama_domains",
+          "domains_file": "domains/ollama.txt"
+        }
+      ]
+    },
+    "openai": {
+      "description": "openai AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "static_file",
+          "id": "openai_network_cidrs",
+          "path": "patches/openai-network.txt"
+        },
+        {
+          "type": "resolve",
+          "id": "openai_domains",
+          "domains_file": "domains/openai.txt"
+        }
+      ]
+    },
+    "openart": {
+      "description": "openart AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "openart_domains",
+          "domains_file": "domains/openart.txt"
+        }
+      ]
+    },
+    "openclaw": {
+      "description": "openclaw AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "openclaw_domains",
+          "domains_file": "domains/openclaw.txt"
+        }
+      ]
+    },
+    "openrouter": {
+      "description": "openrouter AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "openrouter_domains",
+          "domains_file": "domains/openrouter.txt"
+        }
+      ]
+    },
+    "otter-ai": {
+      "description": "otter-ai AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "otter-ai_domains",
+          "domains_file": "domains/otter-ai.txt"
+        }
+      ]
+    },
     "perplexity": {
-      "description": "Perplexity destinations",
+      "description": "perplexity AI destinations",
       "include_in_all": true,
       "sources": [
         {
@@ -79,14 +780,289 @@
         }
       ]
     },
+    "phind": {
+      "description": "phind AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "phind_domains",
+          "domains_file": "domains/phind.txt"
+        }
+      ]
+    },
+    "pika": {
+      "description": "pika AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "pika_domains",
+          "domains_file": "domains/pika.txt"
+        }
+      ]
+    },
+    "poe": {
+      "description": "poe AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "poe_domains",
+          "domains_file": "domains/poe.txt"
+        }
+      ]
+    },
+    "recraft": {
+      "description": "recraft AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "recraft_domains",
+          "domains_file": "domains/recraft.txt"
+        }
+      ]
+    },
+    "replicate": {
+      "description": "replicate AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "replicate_domains",
+          "domains_file": "domains/replicate.txt"
+        }
+      ]
+    },
+    "replit": {
+      "description": "replit AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "replit_domains",
+          "domains_file": "domains/replit.txt"
+        }
+      ]
+    },
+    "runway": {
+      "description": "runway AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "runway_domains",
+          "domains_file": "domains/runway.txt"
+        }
+      ]
+    },
+    "senseagora": {
+      "description": "senseagora AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "senseagora_domains",
+          "domains_file": "domains/senseagora.txt"
+        }
+      ]
+    },
+    "siliconflow": {
+      "description": "siliconflow AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "siliconflow_domains",
+          "domains_file": "domains/siliconflow.txt"
+        }
+      ]
+    },
+    "sourcegraph": {
+      "description": "sourcegraph AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "sourcegraph_domains",
+          "domains_file": "domains/sourcegraph.txt"
+        }
+      ]
+    },
+    "stability-ai": {
+      "description": "stability-ai AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "stability-ai_domains",
+          "domains_file": "domains/stability-ai.txt"
+        }
+      ]
+    },
+    "stepfun": {
+      "description": "stepfun AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "stepfun_domains",
+          "domains_file": "domains/stepfun.txt"
+        }
+      ]
+    },
+    "suno": {
+      "description": "suno AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "suno_domains",
+          "domains_file": "domains/suno.txt"
+        }
+      ]
+    },
+    "synthesia": {
+      "description": "synthesia AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "synthesia_domains",
+          "domains_file": "domains/synthesia.txt"
+        }
+      ]
+    },
+    "tabnine": {
+      "description": "tabnine AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "tabnine_domains",
+          "domains_file": "domains/tabnine.txt"
+        }
+      ]
+    },
+    "tencent-ai": {
+      "description": "tencent-ai AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "tencent-ai_domains",
+          "domains_file": "domains/tencent-ai.txt"
+        }
+      ]
+    },
+    "together-ai": {
+      "description": "together-ai AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "together-ai_domains",
+          "domains_file": "domains/together-ai.txt"
+        }
+      ]
+    },
+    "udio": {
+      "description": "udio AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "udio_domains",
+          "domains_file": "domains/udio.txt"
+        }
+      ]
+    },
+    "v0": {
+      "description": "v0 AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "v0_domains",
+          "domains_file": "domains/v0.txt"
+        }
+      ]
+    },
+    "windsurf": {
+      "description": "windsurf AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "windsurf_domains",
+          "domains_file": "domains/windsurf.txt"
+        }
+      ]
+    },
     "xai": {
-      "description": "xAI / Grok destinations",
+      "description": "xai AI destinations",
       "include_in_all": true,
       "sources": [
         {
           "type": "resolve",
           "id": "xai_domains",
           "domains_file": "domains/xai.txt"
+        }
+      ]
+    },
+    "yi": {
+      "description": "yi AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "yi_domains",
+          "domains_file": "domains/yi.txt"
+        }
+      ]
+    },
+    "you": {
+      "description": "you AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "you_domains",
+          "domains_file": "domains/you.txt"
+        }
+      ]
+    },
+    "youmind": {
+      "description": "youmind AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "youmind_domains",
+          "domains_file": "domains/youmind.txt"
+        }
+      ]
+    },
+    "zed": {
+      "description": "zed AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "zed_domains",
+          "domains_file": "domains/zed.txt"
+        }
+      ]
+    },
+    "zhipu": {
+      "description": "zhipu AI destinations",
+      "include_in_all": true,
+      "sources": [
+        {
+          "type": "resolve",
+          "id": "zhipu_domains",
+          "domains_file": "domains/zhipu.txt"
         }
       ]
     }
@@ -124,7 +1100,11 @@
     }
   },
   "resolve": {
-    "resolvers": ["1.1.1.1", "8.8.8.8", "9.9.9.9"],
+    "resolvers": [
+      "1.1.1.1",
+      "8.8.8.8",
+      "9.9.9.9"
+    ],
     "timeout_sec": 5,
     "retries": 2
   }

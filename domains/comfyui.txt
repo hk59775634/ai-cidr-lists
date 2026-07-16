@@ -1,0 +1,7 @@
+# comfyui — AI destination hostnames for DNS resolve
+# sources: comfyui (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 2
+
+comfy.org
+comfyregistry.org

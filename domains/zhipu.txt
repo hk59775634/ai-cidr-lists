@@ -1,0 +1,11 @@
+# zhipu — AI destination hostnames for DNS resolve
+# sources: manual-cn (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 6
+
+bigmodel.cn
+chatglm.cn
+open.bigmodel.cn
+www.chatglm.cn
+www.zhipuai.cn
+zhipuai.cn

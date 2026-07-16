@@ -1,12 +1,30 @@
-# Cursor IDE
+# cursor — AI destination hostnames for DNS resolve
+# sources: cursor (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 25
+
+adminportal42.cursor.sh
+agent.api5.cursor.sh
+agent.global.api5.cursor.sh
+agent.us.api5.cursor.sh
+agentn.api5.cursor.sh
+agentn.global.api5.cursor.sh
+agentn.us.api5.cursor.sh
 api2.cursor.sh
 api3.cursor.sh
 api4.cursor.sh
-repo42.cursor.sh
-cursor.sh
-www.cursor.sh
+api5.cursor.sh
+authenticate.cursor.sh
+authentication.cursor.sh
+authenticator.cursor.sh
+cursor-cdn.com
 cursor.com
-www.cursor.com
+cursor.sh
+cursorapi.com
 downloads.cursor.com
 marketplace.cursorapi.com
-cursor-cdn.com
+prod.authentication.cursor.sh
+repo42.cursor.sh
+us-asia.gcpp.cursor.sh
+us-eu.gcpp.cursor.sh
+us-only.gcpp.cursor.sh

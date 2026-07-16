@@ -1,0 +1,9 @@
+# fireworks-ai
+# fireworks-ai AI destinations
+# generated: 2026-07-16T05:29:52Z
+# count: 2
+# sources: fireworks-ai_domains
+# format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
+
+104.18.6.91/32
+104.18.7.91/32

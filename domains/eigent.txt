@@ -1,0 +1,6 @@
+# eigent — AI destination hostnames for DNS resolve
+# sources: eigent (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 1
+
+eigent.ai

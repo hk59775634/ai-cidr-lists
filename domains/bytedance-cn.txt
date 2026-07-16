@@ -1,0 +1,10 @@
+# bytedance-cn — AI destination hostnames for DNS resolve
+# sources: manual-cn (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 5
+
+ark.cn-beijing.volces.com
+doubao.com
+maas-api.ml-platform-cn-beijing.volces.com
+www.doubao.com
+www.volcengine.com

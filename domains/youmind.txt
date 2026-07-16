@@ -1,0 +1,8 @@
+# youmind — AI destination hostnames for DNS resolve
+# sources: youmind (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 3
+
+youmind.ai
+youmind.com
+youmind.site

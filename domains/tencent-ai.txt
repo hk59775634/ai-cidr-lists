@@ -1,0 +1,8 @@
+# tencent-ai — AI destination hostnames for DNS resolve
+# sources: manual-cn (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 3
+
+hunyuan.tencent.com
+lke.cloud.tencent.com
+yuanbao.tencent.com

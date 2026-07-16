@@ -1,0 +1,6 @@
+# h2o-ai — AI destination hostnames for DNS resolve
+# sources: h2o-ai (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 1
+
+h2o.ai

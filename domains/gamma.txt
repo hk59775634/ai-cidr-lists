@@ -1,0 +1,6 @@
+# gamma — AI destination hostnames for DNS resolve
+# sources: gamma (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 1
+
+gamma.app

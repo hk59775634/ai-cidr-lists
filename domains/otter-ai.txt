@@ -1,0 +1,6 @@
+# otter-ai — AI destination hostnames for DNS resolve
+# sources: otter-ai (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 1
+
+otter.ai

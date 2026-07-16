@@ -1,0 +1,9 @@
+# windsurf — AI destination hostnames for DNS resolve
+# sources: windsurf (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 4
+
+codeium.com
+codeiumdata.com
+windsurf.build
+windsurf.com

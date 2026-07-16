@@ -1,9 +1,21 @@
-# Google AI / Gemini (supplement; main coverage from goog_ipv4_only)
-generativelanguage.googleapis.com
-gemini.google.com
-aistudio.google.com
+# google-ai — AI destination hostnames for DNS resolve
+# sources: google-ai (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 16
+
 ai.google.dev
-makersuite.google.com
-bard.google.com
-notebooklm.google.com
-gemini.googleusercontent.com
+ai.studio
+antigravity-unleash.goog
+antigravity.google
+deepmind.com
+deepmind.google
+flow.google
+gemini.google
+gemini.google.com
+gemini.gstatic.com
+generativeai.google
+jules.google
+labs.google
+notebooklm.google
+opal.google
+stitch.withgoogle.com

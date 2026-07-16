@@ -1,0 +1,6 @@
+# augment-code — AI destination hostnames for DNS resolve
+# sources: augment-code (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 1
+
+augmentcode.com

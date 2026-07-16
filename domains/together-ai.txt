@@ -1,0 +1,7 @@
+# together-ai — AI destination hostnames for DNS resolve
+# sources: together-ai (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 2
+
+together.ai
+together.xyz

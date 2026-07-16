@@ -1,0 +1,6 @@
+# hermes-agent — AI destination hostnames for DNS resolve
+# sources: hermes-agent (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 1
+
+hermes-agent.nousresearch.com

@@ -1,0 +1,7 @@
+# poe — AI destination hostnames for DNS resolve
+# sources: poe (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 2
+
+poe.com
+poecdn.net

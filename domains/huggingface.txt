@@ -1,0 +1,8 @@
+# huggingface — AI destination hostnames for DNS resolve
+# sources: huggingface (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 3
+
+hf.co
+hf.space
+huggingface.co

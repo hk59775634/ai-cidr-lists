@@ -1,0 +1,9 @@
+# yi — AI destination hostnames for DNS resolve
+# sources: manual-cn (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 4
+
+01.ai
+api.lingyiwanwu.com
+platform.lingyiwanwu.com
+www.01.ai

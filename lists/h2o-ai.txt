@@ -1,0 +1,11 @@
+# h2o-ai
+# h2o-ai AI destinations
+# generated: 2026-07-16T05:29:52Z
+# count: 4
+# sources: h2o-ai_domains
+# format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
+
+151.101.3.10/32
+151.101.67.10/32
+151.101.131.10/32
+151.101.195.10/32

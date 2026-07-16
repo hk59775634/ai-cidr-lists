@@ -1,0 +1,7 @@
+# manus — AI destination hostnames for DNS resolve
+# sources: manus (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 2
+
+manus.im
+manuscdn.com

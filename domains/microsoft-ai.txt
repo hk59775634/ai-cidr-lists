@@ -1,7 +1,19 @@
-# Microsoft Copilot / Azure OpenAI
-# Note: regional *.openai.azure.com hosts vary by tenant — add your own in patches/ if needed
+# microsoft-ai — AI destination hostnames for DNS resolve
+# sources: copilot (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 14
+
+api.githubcopilot.com
+bing-shopping.microsoft-falcon.io
+copilot-proxy.githubusercontent.com
+copilot-workspace.githubnext.com
 copilot.microsoft.com
-www.copilot.microsoft.com
+copilotprodattachments.blob.core.windows.net
+gateway.bingviz.microsoft.net
+gateway.bingviz.microsoftapp.net
+githubcopilot.com
+in.appcenter.ms
+location.microsoft.com
+odc.officeapps.live.com
 sydney.bing.com
-edgeservices.bing.com
-api.cognitive.microsoft.com
+www.copilot.microsoft.com

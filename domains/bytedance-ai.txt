@@ -1,0 +1,19 @@
+# bytedance-ai — AI destination hostnames for DNS resolve
+# sources: bytedance-ai (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 14
+
+abtestvm-sg.bytedance.com
+bytegate-sg.byteintlapi.com
+byteoversea.com
+cici.com
+ciciai.com
+ciciaicdn.com
+coze.com
+lf3-static.bytednsdoc.com
+marscode.com
+sf16-short-sg.bytedapm.com
+starling.zijieapi.com
+trae-api-sg.mchost.guru
+trae.ai
+tron-sg.bytelemon.com

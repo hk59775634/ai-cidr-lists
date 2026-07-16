@@ -1,0 +1,12 @@
+# moonshot — AI destination hostnames for DNS resolve
+# sources: manual-cn (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 7
+
+api.moonshot.cn
+kimi.com
+kimi.moonshot.cn
+moonshot.cn
+platform.moonshot.cn
+www.kimi.com
+www.moonshot.cn

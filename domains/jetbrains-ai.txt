@@ -1,0 +1,8 @@
+# jetbrains-ai — AI destination hostnames for DNS resolve
+# sources: jetbrains-ai (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 3
+
+grazie.ai
+grazie.aws.intellij.net
+jetbrains.ai

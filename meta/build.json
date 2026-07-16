@@ -1,82 +1,964 @@
 {
-  "generated_at": "2026-07-16T02:59:35Z",
+  "generated_at": "2026-07-16T05:29:52Z",
   "lists": {
-    "google": {
-      "path": "lists/google.txt",
-      "count": 133,
+    "adobe-firefly": {
+      "path": "lists/adobe-firefly.txt",
+      "count": 8,
       "sources": [
-        "goog_ipv4_only",
-        "google_ai_domains"
+        "adobe-firefly_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "alibaba-ai": {
+      "path": "lists/alibaba-ai.txt",
+      "count": 29,
+      "sources": [
+        "alibaba-ai_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "amazon-q": {
+      "path": "lists/amazon-q.txt",
+      "count": 11,
+      "sources": [
+        "amazon-q_domains"
       ],
       "include_in_all": true,
       "kind": "destination"
     },
     "anthropic": {
       "path": "lists/anthropic.txt",
-      "count": 2,
+      "count": 11,
       "sources": [
         "anthropic_inbound_docs",
+        "anthropic_network_cidrs",
         "anthropic_domains"
       ],
       "include_in_all": true,
       "kind": "destination"
     },
-    "openai": {
-      "path": "lists/openai.txt",
-      "count": 20,
+    "augment-code": {
+      "path": "lists/augment-code.txt",
+      "count": 1,
       "sources": [
-        "openai_domains"
+        "augment-code_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "baichuan": {
+      "path": "lists/baichuan.txt",
+      "count": 1,
+      "sources": [
+        "baichuan_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "baidu-ai": {
+      "path": "lists/baidu-ai.txt",
+      "count": 5,
+      "sources": [
+        "baidu-ai_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "black-forest-labs": {
+      "path": "lists/black-forest-labs.txt",
+      "count": 1,
+      "sources": [
+        "black-forest-labs_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "bolt": {
+      "path": "lists/bolt.txt",
+      "count": 3,
+      "sources": [
+        "bolt_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "bytedance-ai": {
+      "path": "lists/bytedance-ai.txt",
+      "count": 37,
+      "sources": [
+        "bytedance-ai_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "bytedance-cn": {
+      "path": "lists/bytedance-cn.txt",
+      "count": 21,
+      "sources": [
+        "bytedance-cn_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "cerebras": {
+      "path": "lists/cerebras.txt",
+      "count": 1,
+      "sources": [
+        "cerebras_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "character-ai": {
+      "path": "lists/character-ai.txt",
+      "count": 2,
+      "sources": [
+        "character-ai_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "chutes": {
+      "path": "lists/chutes.txt",
+      "count": 2,
+      "sources": [
+        "chutes_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "civitai": {
+      "path": "lists/civitai.txt",
+      "count": 2,
+      "sources": [
+        "civitai_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "clipdrop": {
+      "path": "lists/clipdrop.txt",
+      "count": 1,
+      "sources": [
+        "clipdrop_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "cloudflare-ai": {
+      "path": "lists/cloudflare-ai.txt",
+      "count": 2,
+      "sources": [
+        "cloudflare-ai_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "coderabbit": {
+      "path": "lists/coderabbit.txt",
+      "count": 2,
+      "sources": [
+        "coderabbit_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "cohere": {
+      "path": "lists/cohere.txt",
+      "count": 1,
+      "sources": [
+        "cohere_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "comfyui": {
+      "path": "lists/comfyui.txt",
+      "count": 3,
+      "sources": [
+        "comfyui_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "continue": {
+      "path": "lists/continue.txt",
+      "count": 1,
+      "sources": [
+        "continue_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "crewai": {
+      "path": "lists/crewai.txt",
+      "count": 1,
+      "sources": [
+        "crewai_domains"
       ],
       "include_in_all": true,
       "kind": "destination"
     },
     "cursor": {
       "path": "lists/cursor.txt",
-      "count": 32,
+      "count": 48,
       "sources": [
         "cursor_domains"
       ],
       "include_in_all": true,
       "kind": "destination"
     },
+    "deepinfra": {
+      "path": "lists/deepinfra.txt",
+      "count": 1,
+      "sources": [
+        "deepinfra_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "deepseek": {
+      "path": "lists/deepseek.txt",
+      "count": 1,
+      "sources": [
+        "deepseek_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "descript": {
+      "path": "lists/descript.txt",
+      "count": 1,
+      "sources": [
+        "descript_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "devin": {
+      "path": "lists/devin.txt",
+      "count": 1,
+      "sources": [
+        "devin_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "dia-browser": {
+      "path": "lists/dia-browser.txt",
+      "count": 2,
+      "sources": [
+        "dia-browser_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "dify": {
+      "path": "lists/dify.txt",
+      "count": 3,
+      "sources": [
+        "dify_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "duck-ai": {
+      "path": "lists/duck-ai.txt",
+      "count": 1,
+      "sources": [
+        "duck-ai_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "eigent": {
+      "path": "lists/eigent.txt",
+      "count": 2,
+      "sources": [
+        "eigent_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "elevenlabs": {
+      "path": "lists/elevenlabs.txt",
+      "count": 1,
+      "sources": [
+        "elevenlabs_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "factory": {
+      "path": "lists/factory.txt",
+      "count": 1,
+      "sources": [
+        "factory_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "fireworks-ai": {
+      "path": "lists/fireworks-ai.txt",
+      "count": 2,
+      "sources": [
+        "fireworks-ai_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "gamma": {
+      "path": "lists/gamma.txt",
+      "count": 2,
+      "sources": [
+        "gamma_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "genspark": {
+      "path": "lists/genspark.txt",
+      "count": 2,
+      "sources": [
+        "genspark_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "google-ai": {
+      "path": "lists/google-ai.txt",
+      "count": 118,
+      "sources": [
+        "goog_ipv4_only",
+        "google-ai_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "grammarly": {
+      "path": "lists/grammarly.txt",
+      "count": 4,
+      "sources": [
+        "grammarly_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "groq": {
+      "path": "lists/groq.txt",
+      "count": 1,
+      "sources": [
+        "groq_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "h2o-ai": {
+      "path": "lists/h2o-ai.txt",
+      "count": 4,
+      "sources": [
+        "h2o-ai_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "hermes-agent": {
+      "path": "lists/hermes-agent.txt",
+      "count": 2,
+      "sources": [
+        "hermes-agent_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "heygen": {
+      "path": "lists/heygen.txt",
+      "count": 2,
+      "sources": [
+        "heygen_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "huggingface": {
+      "path": "lists/huggingface.txt",
+      "count": 13,
+      "sources": [
+        "huggingface_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "ideogram": {
+      "path": "lists/ideogram.txt",
+      "count": 2,
+      "sources": [
+        "ideogram_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "inflection": {
+      "path": "lists/inflection.txt",
+      "count": 4,
+      "sources": [
+        "inflection_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "jasper": {
+      "path": "lists/jasper.txt",
+      "count": 1,
+      "sources": [
+        "jasper_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "jetbrains-ai": {
+      "path": "lists/jetbrains-ai.txt",
+      "count": 1,
+      "sources": [
+        "jetbrains-ai_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "kiro": {
+      "path": "lists/kiro.txt",
+      "count": 4,
+      "sources": [
+        "kiro_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "langchain": {
+      "path": "lists/langchain.txt",
+      "count": 1,
+      "sources": [
+        "langchain_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "leonardo-ai": {
+      "path": "lists/leonardo-ai.txt",
+      "count": 2,
+      "sources": [
+        "leonardo-ai_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "lmarena": {
+      "path": "lists/lmarena.txt",
+      "count": 2,
+      "sources": [
+        "lmarena_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "lmstudio": {
+      "path": "lists/lmstudio.txt",
+      "count": 3,
+      "sources": [
+        "lmstudio_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "lovable": {
+      "path": "lists/lovable.txt",
+      "count": 2,
+      "sources": [
+        "lovable_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "lovart": {
+      "path": "lists/lovart.txt",
+      "count": 1,
+      "sources": [
+        "lovart_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "luma-ai": {
+      "path": "lists/luma-ai.txt",
+      "count": 2,
+      "sources": [
+        "luma-ai_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "manus": {
+      "path": "lists/manus.txt",
+      "count": 4,
+      "sources": [
+        "manus_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "meta-ai": {
+      "path": "lists/meta-ai.txt",
+      "count": 1,
+      "sources": [
+        "meta-ai_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
     "microsoft-ai": {
       "path": "lists/microsoft-ai.txt",
-      "count": 8,
+      "count": 22,
       "sources": [
-        "microsoft_ai_domains"
+        "microsoft-ai_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "midjourney": {
+      "path": "lists/midjourney.txt",
+      "count": 2,
+      "sources": [
+        "midjourney_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "minimax": {
+      "path": "lists/minimax.txt",
+      "count": 4,
+      "sources": [
+        "minimax_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "mistral-ai": {
+      "path": "lists/mistral-ai.txt",
+      "count": 2,
+      "sources": [
+        "mistral-ai_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "moonshot": {
+      "path": "lists/moonshot.txt",
+      "count": 4,
+      "sources": [
+        "moonshot_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "ollama": {
+      "path": "lists/ollama.txt",
+      "count": 1,
+      "sources": [
+        "ollama_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "openai": {
+      "path": "lists/openai.txt",
+      "count": 47,
+      "sources": [
+        "openai_network_cidrs",
+        "openai_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "openart": {
+      "path": "lists/openart.txt",
+      "count": 2,
+      "sources": [
+        "openart_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "openclaw": {
+      "path": "lists/openclaw.txt",
+      "count": 1,
+      "sources": [
+        "openclaw_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "openrouter": {
+      "path": "lists/openrouter.txt",
+      "count": 2,
+      "sources": [
+        "openrouter_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "otter-ai": {
+      "path": "lists/otter-ai.txt",
+      "count": 3,
+      "sources": [
+        "otter-ai_domains"
       ],
       "include_in_all": true,
       "kind": "destination"
     },
     "perplexity": {
       "path": "lists/perplexity.txt",
-      "count": 2,
+      "count": 14,
       "sources": [
         "perplexity_domains"
       ],
       "include_in_all": true,
       "kind": "destination"
     },
+    "phind": {
+      "path": "lists/phind.txt",
+      "count": 2,
+      "sources": [
+        "phind_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "pika": {
+      "path": "lists/pika.txt",
+      "count": 2,
+      "sources": [
+        "pika_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "poe": {
+      "path": "lists/poe.txt",
+      "count": 2,
+      "sources": [
+        "poe_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "recraft": {
+      "path": "lists/recraft.txt",
+      "count": 1,
+      "sources": [
+        "recraft_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "replicate": {
+      "path": "lists/replicate.txt",
+      "count": 4,
+      "sources": [
+        "replicate_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "replit": {
+      "path": "lists/replit.txt",
+      "count": 8,
+      "sources": [
+        "replit_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "runway": {
+      "path": "lists/runway.txt",
+      "count": 2,
+      "sources": [
+        "runway_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "senseagora": {
+      "path": "lists/senseagora.txt",
+      "count": 2,
+      "sources": [
+        "senseagora_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "siliconflow": {
+      "path": "lists/siliconflow.txt",
+      "count": 4,
+      "sources": [
+        "siliconflow_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "sourcegraph": {
+      "path": "lists/sourcegraph.txt",
+      "count": 5,
+      "sources": [
+        "sourcegraph_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "stability-ai": {
+      "path": "lists/stability-ai.txt",
+      "count": 4,
+      "sources": [
+        "stability-ai_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "stepfun": {
+      "path": "lists/stepfun.txt",
+      "count": 6,
+      "sources": [
+        "stepfun_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "suno": {
+      "path": "lists/suno.txt",
+      "count": 4,
+      "sources": [
+        "suno_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "synthesia": {
+      "path": "lists/synthesia.txt",
+      "count": 1,
+      "sources": [
+        "synthesia_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "tabnine": {
+      "path": "lists/tabnine.txt",
+      "count": 4,
+      "sources": [
+        "tabnine_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "tencent-ai": {
+      "path": "lists/tencent-ai.txt",
+      "count": 4,
+      "sources": [
+        "tencent-ai_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "together-ai": {
+      "path": "lists/together-ai.txt",
+      "count": 5,
+      "sources": [
+        "together-ai_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "udio": {
+      "path": "lists/udio.txt",
+      "count": 1,
+      "sources": [
+        "udio_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "v0": {
+      "path": "lists/v0.txt",
+      "count": 4,
+      "sources": [
+        "v0_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "windsurf": {
+      "path": "lists/windsurf.txt",
+      "count": 3,
+      "sources": [
+        "windsurf_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
     "xai": {
       "path": "lists/xai.txt",
-      "count": 2,
+      "count": 5,
       "sources": [
         "xai_domains"
       ],
       "include_in_all": true,
       "kind": "destination"
     },
+    "yi": {
+      "path": "lists/yi.txt",
+      "count": 19,
+      "sources": [
+        "yi_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "you": {
+      "path": "lists/you.txt",
+      "count": 2,
+      "sources": [
+        "you_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "youmind": {
+      "path": "lists/youmind.txt",
+      "count": 6,
+      "sources": [
+        "youmind_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "zed": {
+      "path": "lists/zed.txt",
+      "count": 2,
+      "sources": [
+        "zed_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
+    "zhipu": {
+      "path": "lists/zhipu.txt",
+      "count": 26,
+      "sources": [
+        "zhipu_domains"
+      ],
+      "include_in_all": true,
+      "kind": "destination"
+    },
     "all": {
       "path": "lists/all.txt",
-      "count": 199,
+      "count": 570,
       "sources": [
+        "adobe-firefly",
+        "alibaba-ai",
+        "amazon-q",
         "anthropic",
+        "augment-code",
+        "baichuan",
+        "baidu-ai",
+        "black-forest-labs",
+        "bolt",
+        "bytedance-ai",
+        "bytedance-cn",
+        "cerebras",
+        "character-ai",
+        "chutes",
+        "civitai",
+        "clipdrop",
+        "cloudflare-ai",
+        "coderabbit",
+        "cohere",
+        "comfyui",
+        "continue",
+        "crewai",
         "cursor",
-        "google",
+        "deepinfra",
+        "deepseek",
+        "descript",
+        "devin",
+        "dia-browser",
+        "dify",
+        "duck-ai",
+        "eigent",
+        "elevenlabs",
+        "factory",
+        "fireworks-ai",
+        "gamma",
+        "genspark",
+        "google-ai",
+        "grammarly",
+        "groq",
+        "h2o-ai",
+        "hermes-agent",
+        "heygen",
+        "huggingface",
+        "ideogram",
+        "inflection",
+        "jasper",
+        "jetbrains-ai",
+        "kiro",
+        "langchain",
+        "leonardo-ai",
+        "lmarena",
+        "lmstudio",
+        "lovable",
+        "lovart",
+        "luma-ai",
+        "manus",
+        "meta-ai",
         "microsoft-ai",
+        "midjourney",
+        "minimax",
+        "mistral-ai",
+        "moonshot",
+        "ollama",
         "openai",
+        "openart",
+        "openclaw",
+        "openrouter",
+        "otter-ai",
         "perplexity",
-        "xai"
+        "phind",
+        "pika",
+        "poe",
+        "recraft",
+        "replicate",
+        "replit",
+        "runway",
+        "senseagora",
+        "siliconflow",
+        "sourcegraph",
+        "stability-ai",
+        "stepfun",
+        "suno",
+        "synthesia",
+        "tabnine",
+        "tencent-ai",
+        "together-ai",
+        "udio",
+        "v0",
+        "windsurf",
+        "xai",
+        "yi",
+        "you",
+        "youmind",
+        "zed",
+        "zhipu"
       ],
       "include_in_all": false,
       "kind": "destination"
@@ -95,7 +977,25 @@
       "kind": "egress"
     }
   },
-  "warnings": [],
+  "warnings": [
+    "amazon-q_domains: unresolved domains: aws.dev, console.aws.a2z.com, awsstatic.com",
+    "anthropic_domains: unresolved domains: cdn.anthropic.com, claudemcpcontent.com, claudemcpclient.com, claudeusercontent.com, mcp.anthropic.com, statsig.anthropic.com, modelcontextprotocol.com, anthropic.com.cn",
+    "bytedance-ai_domains: unresolved domains: byteoversea.com, ciciaicdn.com",
+    "cursor_domains: unresolved domains: api5.cursor.sh, authentication.cursor.sh, cursorapi.com, us-asia.gcpp.cursor.sh, us-eu.gcpp.cursor.sh",
+    "deepseek_domains: unresolved domains: coder.deepseek.com",
+    "dia-browser_domains: unresolved domains: diabrowser.engineering",
+    "elevenlabs_domains: unresolved domains: elevenlabs.com",
+    "jetbrains-ai_domains: unresolved domains: grazie.aws.intellij.net",
+    "manus_domains: unresolved domains: manuscdn.com",
+    "meta-ai_domains: unresolved domains: atmeta.com",
+    "microsoft-ai_domains: unresolved domains: bing-shopping.microsoft-falcon.io, gateway.bingviz.microsoft.net, copilot-workspace.githubnext.com",
+    "minimax_domains: unresolved domains: minimax.chat",
+    "openai_domains: unresolved domains: oaiusercontent.com",
+    "poe_domains: unresolved domains: poecdn.net",
+    "senseagora_domains: unresolved domains: sensechat.sensetime.com",
+    "sourcegraph_domains: unresolved domains: ampworkers.com",
+    "windsurf_domains: unresolved domains: codeiumdata.com"
+  ],
   "qosnat2": {
     "alias_url_example": "https://raw.githubusercontent.com/hk59775634/ai-cidr-lists/main/lists/all.txt",
     "notes": [

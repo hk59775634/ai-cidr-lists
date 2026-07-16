@@ -1,0 +1,7 @@
+# replicate — AI destination hostnames for DNS resolve
+# sources: replicate (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 2
+
+replicate.com
+replicate.delivery

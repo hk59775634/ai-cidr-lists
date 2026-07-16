@@ -1,0 +1,11 @@
+# amazon-q — AI destination hostnames for DNS resolve
+# sources: amazon-q (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 6
+
+aws.dev
+awsapps.com
+awsstatic.com
+console.aws.a2z.com
+idetoolkits.amazonwebservices.com
+q-developer-integration.us-east-1.api.aws

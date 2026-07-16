@@ -1,5 +1,11 @@
-# xAI / Grok
+# xai — AI destination hostnames for DNS resolve
+# sources: x-ai (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 6
+
 api.x.ai
-x.ai
-grok.x.ai
 console.x.ai
+grok.com
+grok.x.ai
+grok.x.com
+x.ai

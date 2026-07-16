@@ -1,0 +1,11 @@
+# tencent-ai
+# tencent-ai AI destinations
+# generated: 2026-07-16T05:29:52Z
+# count: 4
+# sources: tencent-ai_domains
+# format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
+
+43.174.224.3/32
+61.151.177.47/32
+162.14.18.73/32
+162.14.20.80/32

@@ -15,15 +15,21 @@
 ## 数据来源分层
 
 1. **官方网段**：如 Google `goog_ipv4_only.txt`、Anthropic inbound docs  
-2. **静态补丁**：`patches/`  
-3. **域名解析**：`domains/*.txt` → A 记录 `/32`（OpenAI 等无官方 inbound 列表时的主手段）  
-4. **厂商 egress JSON**：写入 `lists/egress/`，与目的列表隔离
+2. **静态补丁**：`patches/`（含上游 Network 段 IPv4）  
+3. **域名解析**：`domains/*.txt` → A 记录 `/32`  
+4. **厂商 egress JSON**：写入 `lists/egress/`，与目的列表隔离  
+
+域名列表主要同步自 [VPSDance/ai-proxy-rules](https://github.com/VPSDance/ai-proxy-rules)（按 provider 拆分），并补充 Cursor 官方白名单与国内 AI（DeepSeek / Kimi / 通义等）。已过滤过宽第三方（如整站 `auth0.com` / `stripe.com`）。
 
 > 注意：Google 列表较宽；CDN 共享 IP 可能误伤。OpenAI 公开的 JSON 多是 **egress**，不能替代 API 目的地址。
 
 ## 构建
 
 ```bash
+# 从上游刷新 domains/ + config/sources.json
+python3 scripts/sync-domains-from-upstream.py
+
+# 解析域名并生成 lists/*.txt
 PYTHONPATH=src python3 scripts/build.py
 ```
 
@@ -31,39 +37,35 @@ PYTHONPATH=src python3 scripts/build.py
 
 ## 给 qosnat2 用
 
-1. 发布本仓库后，取 raw URL，例如：
+1. 取 raw URL，例如：
    `https://raw.githubusercontent.com/hk59775634/ai-cidr-lists/main/lists/openai.txt`
+   或合并列表 `.../lists/all.txt`
 2. 在 qosnat2 建 Alias：`url` 填上述地址，刷新 members  
+   （也可用本机 FQDN 别名直接引用 `domains/*.txt` 中的域名）
 3. EgressPolicy：`dst_alias` → `wan-warp`（或其它专用出口）
-
-建议先按厂商挂多个 alias，确认无误后再用 `lists/all.txt`。
 
 ## 目录
 
 ```
-config/sources.json   # 采集配置
-domains/              # 待解析域名
-patches/              # 手工/文档摘录 CIDR
-src/ai_cidr_lists/    # 构建逻辑
-lists/                # 生成物（可提交，便于 raw URL 消费）
-meta/build.json       # 生成元数据与警告
+config/sources.json                      # 采集配置
+domains/*.txt                            # 按厂商待解析域名（约 90+ 家）
+patches/                                 # 手工/文档/上游 Network CIDR
+scripts/sync-domains-from-upstream.py    # 同步域名
+scripts/build.py                         # 生成 lists/
+lists/                                   # 发布产物
+meta/build.json                          # 元数据与解析警告
 ```
 
-## Related work（现成项目）
-
-公开生态里**已有不少「AI 爬虫出站 IP」聚合**，用途是 WAF/robots 放行或拦截「AI → 你的站点」：
+## Related work
 
 | 项目 | 侧重 |
 |------|------|
-| [sefinek/trusted-ips-whitelist](https://github.com/sefinek/trusted-ips-whitelist)（亦作 known-bots-ip-whitelist） | GPTBot / PerplexityBot 等官方 JSON 白名单 |
-| [ipanalytics/CrawlerScope](https://github.com/ipanalytics/CrawlerScope) | 爬虫/监控类官方网段流水线 |
-| [disposable/cloud-ip-ranges](https://github.com/disposable/cloud-ip-ranges) | 云厂商 + OpenAI crawler 等网段镜像 |
-| [Listo-Labs-Ltd/mcp-ip-guard-python](https://github.com/Listo-Labs-Ltd/mcp-ip-guard-python) | MCP 侧 OpenAI/Anthropic **egress** allowlist |
-| [sourcecidr.com](https://sourcecidr.com/) | 厂商网段目录（含 AI platforms） |
+| [VPSDance/ai-proxy-rules](https://github.com/VPSDance/ai-proxy-rules) | AI **域名**分流规则（本仓库 domains 主要上游） |
+| [sefinek/trusted-ips-whitelist](https://github.com/sefinek/trusted-ips-whitelist) | GPTBot 等爬虫 **egress** 白名单 |
+| [ipanalytics/CrawlerScope](https://github.com/ipanalytics/CrawlerScope) | 爬虫/监控网段流水线 |
+| [sourcecidr.com](https://sourcecidr.com/) | 厂商网段目录 |
 
-以上几乎都是 **vendor → your server（egress/crawler）**。
-
-本仓库额外维护 **LAN 客户端 → AI 服务（destination）** 列表（官方 inbound + DNS resolve + Google 全量等），并与 `lists/egress/` 严格分开，避免拿爬虫网段去做出口分流。
+本仓库面向 **LAN → AI 目的网段**，与爬虫 egress 列表严格分开。
 
 ## License
 

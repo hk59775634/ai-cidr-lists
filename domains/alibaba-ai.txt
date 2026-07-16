@@ -1,0 +1,10 @@
+# alibaba-ai — AI destination hostnames for DNS resolve
+# sources: manual-cn (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 5
+
+bailian.console.aliyun.com
+dashscope.aliyuncs.com
+dashscope.console.aliyun.com
+qianwen.aliyun.com
+tongyi.aliyun.com

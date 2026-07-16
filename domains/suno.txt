@@ -1,0 +1,7 @@
+# suno — AI destination hostnames for DNS resolve
+# sources: suno (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 2
+
+suno.ai
+suno.com

@@ -1,5 +1,37 @@
-# Anthropic / Claude
+# anthropic — AI destination hostnames for DNS resolve
+# sources: anthropic (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 32
+
+anthropic-com.ghost.io
+anthropic.auth0.com
+anthropic.com
+anthropic.com.cdn.cloudflare.net
+anthropic.com.cn
+anthropic.team
+antspace.dev
 api.anthropic.com
-console.anthropic.com
+cdn.anthropic.com
+chatbotclaude.com
+clau.de
 claude.ai
+claude.app
+claude.com
+claude.new
+claude.site
+claudemcpclient.com
+claudemcpcontent.com
+claudepages.dev
+claudestudio.com
+claudeusercontent.com
+code.claude.com
+console.anthropic.com
+mcp.anthropic.com
+modelcontextprotocol.com
+modelcontextprotocol.io
+modelcontextprotocol.net
+modelcontextprotocol.org
+platform.claude.com
+servd-anthropic-website.b-cdn.net
+statsig.anthropic.com
 www.claude.ai

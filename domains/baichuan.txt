@@ -1,0 +1,8 @@
+# baichuan — AI destination hostnames for DNS resolve
+# sources: manual-cn (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 3
+
+api.baichuan-ai.com
+baichuan-ai.com
+www.baichuan-ai.com

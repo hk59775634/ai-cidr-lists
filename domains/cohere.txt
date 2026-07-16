@@ -1,0 +1,7 @@
+# cohere — AI destination hostnames for DNS resolve
+# sources: cohere (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 2
+
+cohere.ai
+cohere.com

@@ -1,4 +1,10 @@
-# Perplexity
-www.perplexity.ai
+# perplexity — AI destination hostnames for DNS resolve
+# sources: perplexity (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 5
+
 perplexity.ai
-api.perplexity.ai
+perplexity.com
+ppl-ai-file-upload.s3.amazonaws.com
+pplx-res.cloudinary.com
+pplx.ai

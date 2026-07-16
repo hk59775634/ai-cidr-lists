@@ -1,0 +1,6 @@
+# cloudflare-ai — AI destination hostnames for DNS resolve
+# sources: cloudflare-ai (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 1
+
+ai.cloudflare.com

@@ -1,0 +1,11 @@
+# deepseek — AI destination hostnames for DNS resolve
+# sources: manual-cn (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 6
+
+api.deepseek.com
+chat.deepseek.com
+coder.deepseek.com
+deepseek.com
+platform.deepseek.com
+www.deepseek.com

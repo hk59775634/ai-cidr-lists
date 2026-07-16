@@ -1,9 +1,21 @@
 # perplexity
-# Perplexity destinations
-# generated: 2026-07-16T02:59:35Z
-# count: 2
+# perplexity AI destinations
+# generated: 2026-07-16T05:29:52Z
+# count: 14
 # sources: perplexity_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
 
+16.15.183.29/32
+16.15.199.195/32
+16.15.214.207/32
+16.15.223.126/32
+16.15.245.8/32
+23.15.140.46/32
+52.217.199.105/32
+52.217.204.65/32
+52.217.205.129/32
+76.76.21.21/32
 104.18.26.48/32
+104.18.26.226/32
 104.18.27.48/32
+104.18.27.226/32

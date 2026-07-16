@@ -1,0 +1,7 @@
+# adobe-firefly — AI destination hostnames for DNS resolve
+# sources: adobe-firefly (+extras); filtered broad third-party SaaS
+# upstream: https://github.com/VPSDance/ai-proxy-rules
+# count: 2
+
+firefly.adobe.com
+firefly.adobe.io

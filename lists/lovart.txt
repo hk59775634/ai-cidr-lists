@@ -1,0 +1,8 @@
+# lovart
+# lovart AI destinations
+# generated: 2026-07-16T05:29:52Z
+# count: 1
+# sources: lovart_domains
+# format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
+
+47.252.7.74/32

@@ -1,0 +1,12 @@
+# together-ai
+# together-ai AI destinations
+# generated: 2026-07-16T05:29:52Z
+# count: 5
+# sources: together-ai_domains
+# format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
+
+198.49.23.144/32
+198.49.23.145/32
+198.185.159.144/32
+198.185.159.145/32
+198.202.211.1/32
