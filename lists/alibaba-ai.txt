@@ -1,7 +1,7 @@
 # alibaba-ai
 # alibaba-ai AI destinations
-# generated: 2026-07-16T05:29:52Z
-# count: 29
+# generated: 2026-07-16T05:30:08Z
+# count: 24
 # sources: alibaba-ai_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
 
@@ -15,13 +15,8 @@
 39.97.154.252/32
 39.97.154.253/32
 39.97.154.254/32
-47.74.138.66/32
 47.88.73.19/32
 47.88.73.20/32
-47.88.128.4/32
-47.88.198.68/32
-47.88.198.69/32
-47.88.251.189/32
 47.89.238.193/32
 47.89.238.232/32
 59.110.251.4/32
