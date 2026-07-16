@@ -1,6 +1,6 @@
 # sourcegraph
 # sourcegraph AI destinations
-# generated: 2026-07-16T14:21:48Z
+# generated: 2026-07-16T19:34:02Z
 # count: 5
 # sources: sourcegraph_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
