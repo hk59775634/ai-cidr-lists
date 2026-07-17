@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T19:34:02Z",
+  "generated_at": "2026-07-17T03:36:04Z",
   "lists": {
     "adobe-firefly": {
       "path": "lists/adobe-firefly.txt",
@@ -86,7 +86,7 @@
     },
     "bytedance-ai": {
       "path": "lists/bytedance-ai.txt",
-      "count": 38,
+      "count": 36,
       "sources": [
         "bytedance-ai_domains"
       ],
@@ -95,7 +95,7 @@
     },
     "bytedance-cn": {
       "path": "lists/bytedance-cn.txt",
-      "count": 13,
+      "count": 21,
       "sources": [
         "bytedance-cn_domains"
       ],
@@ -203,7 +203,7 @@
     },
     "cursor": {
       "path": "lists/cursor.txt",
-      "count": 47,
+      "count": 46,
       "sources": [
         "cursor_domains"
       ],
@@ -329,7 +329,7 @@
     },
     "google-ai": {
       "path": "lists/google-ai.txt",
-      "count": 128,
+      "count": 118,
       "sources": [
         "goog_ipv4_only",
         "google-ai_domains"
@@ -510,7 +510,7 @@
     },
     "meta-ai": {
       "path": "lists/meta-ai.txt",
-      "count": 3,
+      "count": 1,
       "sources": [
         "meta-ai_domains"
       ],
@@ -573,7 +573,7 @@
     },
     "openai": {
       "path": "lists/openai.txt",
-      "count": 43,
+      "count": 44,
       "sources": [
         "openai_network_cidrs",
         "openai_domains"
@@ -727,7 +727,7 @@
     },
     "stepfun": {
       "path": "lists/stepfun.txt",
-      "count": 5,
+      "count": 4,
       "sources": [
         "stepfun_domains"
       ],
@@ -790,7 +790,7 @@
     },
     "v0": {
       "path": "lists/v0.txt",
-      "count": 4,
+      "count": 3,
       "sources": [
         "v0_domains"
       ],
@@ -853,7 +853,7 @@
     },
     "zhipu": {
       "path": "lists/zhipu.txt",
-      "count": 32,
+      "count": 27,
       "sources": [
         "zhipu_domains"
       ],
@@ -862,7 +862,7 @@
     },
     "all": {
       "path": "lists/all.txt",
-      "count": 568,
+      "count": 554,
       "sources": [
         "adobe-firefly",
         "alibaba-ai",
@@ -979,16 +979,16 @@
   },
   "warnings": [
     "amazon-q_domains: unresolved domains: aws.dev, awsstatic.com, console.aws.a2z.com",
-    "anthropic_domains: unresolved domains: cdn.anthropic.com, mcp.anthropic.com, claudeusercontent.com, claudemcpcontent.com, claudemcpclient.com, statsig.anthropic.com, modelcontextprotocol.com, anthropic.com.cn",
+    "anthropic_domains: unresolved domains: cdn.anthropic.com, claudeusercontent.com, mcp.anthropic.com, claudemcpclient.com, claudemcpcontent.com, statsig.anthropic.com, modelcontextprotocol.com, anthropic.com.cn",
     "bytedance-ai_domains: unresolved domains: byteoversea.com, ciciaicdn.com",
-    "cursor_domains: unresolved domains: api5.cursor.sh, authentication.cursor.sh, cursorapi.com, us-asia.gcpp.cursor.sh, us-eu.gcpp.cursor.sh",
+    "cursor_domains: unresolved domains: api5.cursor.sh, authentication.cursor.sh, us-asia.gcpp.cursor.sh, cursorapi.com, us-eu.gcpp.cursor.sh",
     "deepseek_domains: unresolved domains: coder.deepseek.com",
     "dia-browser_domains: unresolved domains: diabrowser.engineering",
     "elevenlabs_domains: unresolved domains: elevenlabs.com",
     "jetbrains-ai_domains: unresolved domains: grazie.aws.intellij.net",
     "manus_domains: unresolved domains: manuscdn.com",
     "meta-ai_domains: unresolved domains: atmeta.com",
-    "microsoft-ai_domains: unresolved domains: gateway.bingviz.microsoft.net, bing-shopping.microsoft-falcon.io, copilot-workspace.githubnext.com",
+    "microsoft-ai_domains: unresolved domains: gateway.bingviz.microsoft.net, copilot-workspace.githubnext.com, bing-shopping.microsoft-falcon.io",
     "minimax_domains: unresolved domains: minimax.chat",
     "openai_domains: unresolved domains: oaiusercontent.com",
     "poe_domains: unresolved domains: poecdn.net",

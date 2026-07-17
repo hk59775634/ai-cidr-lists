@@ -1,7 +1,7 @@
 # stepfun
 # stepfun AI destinations
-# generated: 2026-07-16T19:34:02Z
-# count: 5
+# generated: 2026-07-17T03:36:04Z
+# count: 4
 # sources: stepfun_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
 
@@ -9,4 +9,3 @@
 14.103.65.207/32
 14.103.65.215/32
 14.103.71.76/32
-98.96.224.72/32
