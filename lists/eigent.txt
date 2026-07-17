@@ -1,6 +1,6 @@
 # eigent
 # eigent AI destinations
-# generated: 2026-07-17T08:27:33Z
+# generated: 2026-07-17T14:02:14Z
 # count: 2
 # sources: eigent_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
