@@ -1,9 +1,9 @@
 # dia-browser
 # dia-browser AI destinations
-# generated: 2026-07-18T03:30:31Z
+# generated: 2026-07-18T08:07:47Z
 # count: 2
 # sources: dia-browser_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
 
-66.33.60.34/32
-76.76.21.164/32
+66.33.60.130/32
+76.76.21.61/32

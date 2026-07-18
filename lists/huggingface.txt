@@ -1,16 +1,16 @@
 # huggingface
 # huggingface AI destinations
-# generated: 2026-07-18T03:30:31Z
+# generated: 2026-07-18T08:07:47Z
 # count: 13
 # sources: huggingface_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
 
-3.170.185.14/32
-3.170.185.25/32
-3.170.185.33/32
-3.170.185.35/32
 3.210.66.237/32
 18.213.84.241/32
+18.238.109.52/32
+18.238.109.92/32
+18.238.109.102/32
+18.238.109.121/32
 34.198.14.237/32
 34.202.8.246/32
 34.204.155.59/32
