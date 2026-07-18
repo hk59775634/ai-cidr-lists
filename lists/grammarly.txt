@@ -1,11 +1,11 @@
 # grammarly
 # grammarly AI destinations
-# generated: 2026-07-17T19:31:50Z
+# generated: 2026-07-18T03:30:31Z
 # count: 4
 # sources: grammarly_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
 
-52.222.205.59/32
-52.222.205.61/32
-52.222.205.69/32
-52.222.205.96/32
+13.225.47.13/32
+13.225.47.25/32
+13.225.47.26/32
+13.225.47.68/32
