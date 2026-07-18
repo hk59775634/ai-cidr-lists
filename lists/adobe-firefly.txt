@@ -1,6 +1,6 @@
 # adobe-firefly
 # adobe-firefly AI destinations
-# generated: 2026-07-18T13:47:41Z
+# generated: 2026-07-18T19:30:04Z
 # count: 8
 # sources: adobe-firefly_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
@@ -9,7 +9,7 @@
 3.170.3.46/32
 3.170.3.84/32
 3.170.3.101/32
-18.164.78.3/32
-18.164.78.9/32
-18.164.78.49/32
-18.164.78.86/32
+18.160.10.22/32
+18.160.10.46/32
+18.160.10.49/32
+18.160.10.80/32
