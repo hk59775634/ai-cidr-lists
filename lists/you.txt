@@ -1,6 +1,6 @@
 # you
 # you AI destinations
-# generated: 2026-07-19T03:52:48Z
+# generated: 2026-07-19T08:32:24Z
 # count: 2
 # sources: you_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
