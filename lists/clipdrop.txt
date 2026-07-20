@@ -1,6 +1,6 @@
 # clipdrop
 # clipdrop AI destinations
-# generated: 2026-07-20T14:32:52Z
+# generated: 2026-07-20T19:55:45Z
 # count: 1
 # sources: clipdrop_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
