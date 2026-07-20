@@ -1,6 +1,6 @@
 # bolt
 # bolt AI destinations
-# generated: 2026-07-19T19:31:22Z
+# generated: 2026-07-20T04:03:18Z
 # count: 3
 # sources: bolt_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
