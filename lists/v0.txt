@@ -1,11 +1,11 @@
 # v0
 # v0 AI destinations
-# generated: 2026-07-20T09:33:24Z
+# generated: 2026-07-20T14:32:52Z
 # count: 4
 # sources: v0_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
 
-64.239.109.1/32
-64.239.109.65/32
+64.239.109.193/32
 64.239.123.65/32
 64.239.123.129/32
+64.239.123.193/32
