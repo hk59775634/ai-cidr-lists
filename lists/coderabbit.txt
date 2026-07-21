@@ -1,6 +1,6 @@
 # coderabbit
 # coderabbit AI destinations
-# generated: 2026-07-20T19:55:45Z
+# generated: 2026-07-21T03:43:43Z
 # count: 2
 # sources: coderabbit_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
