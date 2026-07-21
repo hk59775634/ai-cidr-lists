@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T14:21:05Z",
+  "generated_at": "2026-07-21T19:50:52Z",
   "lists": {
     "adobe-firefly": {
       "path": "lists/adobe-firefly.txt",
@@ -86,7 +86,7 @@
     },
     "bytedance-ai": {
       "path": "lists/bytedance-ai.txt",
-      "count": 37,
+      "count": 35,
       "sources": [
         "bytedance-ai_domains"
       ],
@@ -176,7 +176,7 @@
     },
     "comfyui": {
       "path": "lists/comfyui.txt",
-      "count": 3,
+      "count": 4,
       "sources": [
         "comfyui_domains"
       ],
@@ -203,7 +203,7 @@
     },
     "cursor": {
       "path": "lists/cursor.txt",
-      "count": 48,
+      "count": 46,
       "sources": [
         "cursor_domains"
       ],
@@ -329,7 +329,7 @@
     },
     "google-ai": {
       "path": "lists/google-ai.txt",
-      "count": 129,
+      "count": 119,
       "sources": [
         "goog_ipv4_only",
         "google-ai_domains"
@@ -510,7 +510,7 @@
     },
     "meta-ai": {
       "path": "lists/meta-ai.txt",
-      "count": 3,
+      "count": 1,
       "sources": [
         "meta-ai_domains"
       ],
@@ -519,7 +519,7 @@
     },
     "microsoft-ai": {
       "path": "lists/microsoft-ai.txt",
-      "count": 22,
+      "count": 23,
       "sources": [
         "microsoft-ai_domains"
       ],
@@ -573,7 +573,7 @@
     },
     "openai": {
       "path": "lists/openai.txt",
-      "count": 45,
+      "count": 44,
       "sources": [
         "openai_network_cidrs",
         "openai_domains"
@@ -727,7 +727,7 @@
     },
     "stepfun": {
       "path": "lists/stepfun.txt",
-      "count": 4,
+      "count": 5,
       "sources": [
         "stepfun_domains"
       ],
@@ -790,7 +790,7 @@
     },
     "v0": {
       "path": "lists/v0.txt",
-      "count": 4,
+      "count": 3,
       "sources": [
         "v0_domains"
       ],
@@ -817,7 +817,7 @@
     },
     "yi": {
       "path": "lists/yi.txt",
-      "count": 14,
+      "count": 12,
       "sources": [
         "yi_domains"
       ],
@@ -853,7 +853,7 @@
     },
     "zhipu": {
       "path": "lists/zhipu.txt",
-      "count": 27,
+      "count": 21,
       "sources": [
         "zhipu_domains"
       ],
@@ -862,7 +862,7 @@
     },
     "all": {
       "path": "lists/all.txt",
-      "count": 568,
+      "count": 543,
       "sources": [
         "adobe-firefly",
         "alibaba-ai",
@@ -978,10 +978,10 @@
     }
   },
   "warnings": [
-    "amazon-q_domains: unresolved domains: aws.dev, awsstatic.com, console.aws.a2z.com",
-    "anthropic_domains: unresolved domains: cdn.anthropic.com, claudemcpcontent.com, claudeusercontent.com, mcp.anthropic.com, modelcontextprotocol.com, claudemcpclient.com, statsig.anthropic.com, anthropic.com.cn",
+    "amazon-q_domains: unresolved domains: aws.dev, console.aws.a2z.com, awsstatic.com",
+    "anthropic_domains: unresolved domains: cdn.anthropic.com, claudemcpclient.com, claudemcpcontent.com, mcp.anthropic.com, statsig.anthropic.com, claudeusercontent.com, modelcontextprotocol.com, anthropic.com.cn",
     "bytedance-ai_domains: unresolved domains: byteoversea.com, ciciaicdn.com",
-    "cursor_domains: unresolved domains: api5.cursor.sh, us-asia.gcpp.cursor.sh, us-eu.gcpp.cursor.sh, authentication.cursor.sh, cursorapi.com",
+    "cursor_domains: unresolved domains: authentication.cursor.sh, api5.cursor.sh, cursorapi.com, us-eu.gcpp.cursor.sh, us-asia.gcpp.cursor.sh",
     "deepseek_domains: unresolved domains: coder.deepseek.com",
     "dia-browser_domains: unresolved domains: diabrowser.engineering",
     "elevenlabs_domains: unresolved domains: elevenlabs.com",
