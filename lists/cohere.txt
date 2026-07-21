@@ -1,6 +1,6 @@
 # cohere
 # cohere AI destinations
-# generated: 2026-07-21T08:43:48Z
+# generated: 2026-07-21T14:21:05Z
 # count: 1
 # sources: cohere_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url

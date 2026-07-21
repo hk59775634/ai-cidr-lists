@@ -1,13 +1,12 @@
 # youmind
 # youmind AI destinations
-# generated: 2026-07-21T08:43:48Z
-# count: 6
+# generated: 2026-07-21T14:21:05Z
+# count: 5
 # sources: youmind_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
 
 104.18.10.103/32
 104.18.11.103/32
-104.26.14.40/32
-104.26.15.40/32
-172.67.68.156/32
+104.18.22.146/32
+104.18.23.146/32
 216.150.1.1/32
