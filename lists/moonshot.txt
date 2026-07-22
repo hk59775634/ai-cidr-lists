@@ -1,6 +1,6 @@
 # moonshot
 # moonshot AI destinations
-# generated: 2026-07-21T19:50:52Z
+# generated: 2026-07-22T03:45:03Z
 # count: 4
 # sources: moonshot_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
