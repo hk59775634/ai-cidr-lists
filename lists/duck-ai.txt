@@ -1,8 +1,8 @@
 # duck-ai
 # duck-ai AI destinations
-# generated: 2026-07-23T08:44:00Z
+# generated: 2026-07-23T14:30:38Z
 # count: 1
 # sources: duck-ai_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
 
-52.250.42.157/32
+52.149.246.39/32

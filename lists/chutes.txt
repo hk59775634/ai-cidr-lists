@@ -1,6 +1,6 @@
 # chutes
 # chutes AI destinations
-# generated: 2026-07-23T08:44:00Z
+# generated: 2026-07-23T14:30:38Z
 # count: 2
 # sources: chutes_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url

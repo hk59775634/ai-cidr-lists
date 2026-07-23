@@ -1,9 +1,9 @@
 # luma-ai
 # luma-ai AI destinations
-# generated: 2026-07-23T08:44:00Z
+# generated: 2026-07-23T14:30:38Z
 # count: 2
 # sources: luma-ai_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
 
-216.150.1.193/32
-216.150.16.193/32
+216.150.1.129/32
+216.150.16.129/32
