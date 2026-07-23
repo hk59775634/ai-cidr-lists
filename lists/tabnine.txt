@@ -1,11 +1,11 @@
 # tabnine
 # tabnine AI destinations
-# generated: 2026-07-23T14:30:38Z
+# generated: 2026-07-23T19:44:49Z
 # count: 4
 # sources: tabnine_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
 
-18.165.83.40/32
-18.165.83.56/32
-18.165.83.101/32
-18.165.83.115/32
+65.8.20.17/32
+65.8.20.30/32
+65.8.20.94/32
+65.8.20.109/32

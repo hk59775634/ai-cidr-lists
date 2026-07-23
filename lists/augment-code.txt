@@ -1,6 +1,6 @@
 # augment-code
 # augment-code AI destinations
-# generated: 2026-07-23T14:30:38Z
+# generated: 2026-07-23T19:44:49Z
 # count: 1
 # sources: augment-code_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
