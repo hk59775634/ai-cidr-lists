@@ -1,6 +1,6 @@
 # amazon-q
 # amazon-q AI destinations
-# generated: 2026-07-24T08:41:38Z
+# generated: 2026-07-24T14:11:41Z
 # count: 11
 # sources: amazon-q_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
@@ -13,6 +13,6 @@
 3.170.42.75/32
 3.170.42.80/32
 3.170.42.115/32
+32.196.102.26/32
 54.80.15.207/32
-54.163.144.232/32
 100.60.21.71/32
