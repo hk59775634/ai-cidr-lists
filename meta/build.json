@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T13:55:00Z",
+  "generated_at": "2026-07-26T19:33:28Z",
   "lists": {
     "adobe-firefly": {
       "path": "lists/adobe-firefly.txt",
@@ -86,7 +86,7 @@
     },
     "bytedance-ai": {
       "path": "lists/bytedance-ai.txt",
-      "count": 34,
+      "count": 29,
       "sources": [
         "bytedance-ai_domains"
       ],
@@ -203,7 +203,7 @@
     },
     "cursor": {
       "path": "lists/cursor.txt",
-      "count": 44,
+      "count": 41,
       "sources": [
         "cursor_domains"
       ],
@@ -727,7 +727,7 @@
     },
     "stepfun": {
       "path": "lists/stepfun.txt",
-      "count": 5,
+      "count": 4,
       "sources": [
         "stepfun_domains"
       ],
@@ -853,7 +853,7 @@
     },
     "zhipu": {
       "path": "lists/zhipu.txt",
-      "count": 28,
+      "count": 27,
       "sources": [
         "zhipu_domains"
       ],
@@ -862,7 +862,7 @@
     },
     "all": {
       "path": "lists/all.txt",
-      "count": 549,
+      "count": 541,
       "sources": [
         "adobe-firefly",
         "alibaba-ai",
@@ -979,9 +979,9 @@
   },
   "warnings": [
     "amazon-q_domains: unresolved domains: aws.dev, awsstatic.com, console.aws.a2z.com",
-    "anthropic_domains: unresolved domains: claudeusercontent.com, cdn.anthropic.com, claudemcpcontent.com, mcp.anthropic.com, claudemcpclient.com, statsig.anthropic.com, modelcontextprotocol.com, anthropic.com.cn",
+    "anthropic_domains: unresolved domains: cdn.anthropic.com, claudemcpclient.com, mcp.anthropic.com, statsig.anthropic.com, claudeusercontent.com, claudemcpcontent.com, modelcontextprotocol.com, anthropic.com.cn",
     "bytedance-ai_domains: unresolved domains: byteoversea.com, ciciaicdn.com",
-    "cursor_domains: unresolved domains: api5.cursor.sh, authentication.cursor.sh, us-eu.gcpp.cursor.sh, us-asia.gcpp.cursor.sh, cursorapi.com",
+    "cursor_domains: unresolved domains: api5.cursor.sh, authentication.cursor.sh, us-asia.gcpp.cursor.sh, us-eu.gcpp.cursor.sh, cursorapi.com",
     "deepseek_domains: unresolved domains: coder.deepseek.com",
     "dia-browser_domains: unresolved domains: diabrowser.engineering",
     "elevenlabs_domains: unresolved domains: elevenlabs.com",
