@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T19:34:01Z",
+  "generated_at": "2026-07-26T03:54:22Z",
   "lists": {
     "adobe-firefly": {
       "path": "lists/adobe-firefly.txt",
@@ -86,7 +86,7 @@
     },
     "bytedance-ai": {
       "path": "lists/bytedance-ai.txt",
-      "count": 36,
+      "count": 30,
       "sources": [
         "bytedance-ai_domains"
       ],
@@ -510,7 +510,7 @@
     },
     "meta-ai": {
       "path": "lists/meta-ai.txt",
-      "count": 3,
+      "count": 2,
       "sources": [
         "meta-ai_domains"
       ],
@@ -727,7 +727,7 @@
     },
     "stepfun": {
       "path": "lists/stepfun.txt",
-      "count": 4,
+      "count": 5,
       "sources": [
         "stepfun_domains"
       ],
@@ -862,7 +862,7 @@
     },
     "all": {
       "path": "lists/all.txt",
-      "count": 564,
+      "count": 556,
       "sources": [
         "adobe-firefly",
         "alibaba-ai",
@@ -978,10 +978,10 @@
     }
   },
   "warnings": [
-    "amazon-q_domains: unresolved domains: console.aws.a2z.com, awsstatic.com, aws.dev",
-    "anthropic_domains: unresolved domains: cdn.anthropic.com, mcp.anthropic.com, claudeusercontent.com, claudemcpclient.com, statsig.anthropic.com, claudemcpcontent.com, modelcontextprotocol.com, anthropic.com.cn",
+    "amazon-q_domains: unresolved domains: awsstatic.com, console.aws.a2z.com, aws.dev",
+    "anthropic_domains: unresolved domains: cdn.anthropic.com, claudeusercontent.com, mcp.anthropic.com, statsig.anthropic.com, modelcontextprotocol.com, claudemcpclient.com, claudemcpcontent.com, anthropic.com.cn",
     "bytedance-ai_domains: unresolved domains: byteoversea.com, ciciaicdn.com",
-    "cursor_domains: unresolved domains: authentication.cursor.sh, api5.cursor.sh, us-asia.gcpp.cursor.sh, us-eu.gcpp.cursor.sh, cursorapi.com",
+    "cursor_domains: unresolved domains: api5.cursor.sh, authentication.cursor.sh, us-asia.gcpp.cursor.sh, us-eu.gcpp.cursor.sh, cursorapi.com",
     "deepseek_domains: unresolved domains: coder.deepseek.com",
     "dia-browser_domains: unresolved domains: diabrowser.engineering",
     "elevenlabs_domains: unresolved domains: elevenlabs.com",
