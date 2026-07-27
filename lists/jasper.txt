@@ -1,6 +1,6 @@
 # jasper
 # jasper AI destinations
-# generated: 2026-07-26T19:33:28Z
+# generated: 2026-07-27T04:01:52Z
 # count: 1
 # sources: jasper_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
