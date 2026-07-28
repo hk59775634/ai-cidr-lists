@@ -1,6 +1,6 @@
 # replit
 # replit AI destinations
-# generated: 2026-07-27T19:53:30Z
+# generated: 2026-07-28T03:33:53Z
 # count: 8
 # sources: replit_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
