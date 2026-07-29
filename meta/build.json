@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T19:52:12Z",
+  "generated_at": "2026-07-29T03:37:48Z",
   "lists": {
     "adobe-firefly": {
       "path": "lists/adobe-firefly.txt",
@@ -203,7 +203,7 @@
     },
     "cursor": {
       "path": "lists/cursor.txt",
-      "count": 38,
+      "count": 49,
       "sources": [
         "cursor_domains"
       ],
@@ -329,7 +329,7 @@
     },
     "google-ai": {
       "path": "lists/google-ai.txt",
-      "count": 129,
+      "count": 119,
       "sources": [
         "goog_ipv4_only",
         "google-ai_domains"
@@ -510,7 +510,7 @@
     },
     "meta-ai": {
       "path": "lists/meta-ai.txt",
-      "count": 1,
+      "count": 2,
       "sources": [
         "meta-ai_domains"
       ],
@@ -573,7 +573,7 @@
     },
     "openai": {
       "path": "lists/openai.txt",
-      "count": 45,
+      "count": 44,
       "sources": [
         "openai_network_cidrs",
         "openai_domains"
@@ -790,7 +790,7 @@
     },
     "v0": {
       "path": "lists/v0.txt",
-      "count": 4,
+      "count": 3,
       "sources": [
         "v0_domains"
       ],
@@ -979,7 +979,7 @@
   },
   "warnings": [
     "amazon-q_domains: unresolved domains: console.aws.a2z.com, aws.dev, awsstatic.com",
-    "anthropic_domains: unresolved domains: claudemcpcontent.com, cdn.anthropic.com, claudemcpclient.com, mcp.anthropic.com, statsig.anthropic.com, claudeusercontent.com, modelcontextprotocol.com, anthropic.com.cn",
+    "anthropic_domains: unresolved domains: cdn.anthropic.com, mcp.anthropic.com, claudemcpclient.com, statsig.anthropic.com, claudemcpcontent.com, modelcontextprotocol.com, claudeusercontent.com, anthropic.com.cn",
     "bytedance-ai_domains: unresolved domains: byteoversea.com, ciciaicdn.com",
     "cursor_domains: unresolved domains: api5.cursor.sh, authentication.cursor.sh, us-asia.gcpp.cursor.sh, us-eu.gcpp.cursor.sh, cursorapi.com",
     "deepseek_domains: unresolved domains: coder.deepseek.com",
