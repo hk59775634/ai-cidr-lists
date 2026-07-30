@@ -1,12 +1,11 @@
 # baidu-ai
 # baidu-ai AI destinations
-# generated: 2026-07-30T03:27:01Z
-# count: 5
+# generated: 2026-07-30T08:48:49Z
+# count: 4
 # sources: baidu-ai_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
 
 103.235.47.184/32
-103.235.47.209/32
+103.235.47.231/32
 103.235.47.237/32
-103.235.47.252/32
 111.45.11.41/32
