@@ -1,8 +1,9 @@
 # meta-ai
 # meta-ai AI destinations
-# generated: 2026-07-30T19:50:46Z
-# count: 1
+# generated: 2026-07-31T03:48:32Z
+# count: 2
 # sources: meta-ai_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
 
-157.240.22.19/32
+57.144.78.141/32
+57.144.252.141/32
