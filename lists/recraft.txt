@@ -1,6 +1,6 @@
 # recraft
 # recraft AI destinations
-# generated: 2026-08-02T03:51:27Z
+# generated: 2026-08-02T08:36:18Z
 # count: 1
 # sources: recraft_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
