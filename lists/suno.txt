@@ -1,6 +1,6 @@
 # suno
 # suno AI destinations
-# generated: 2026-08-04T03:35:42Z
+# generated: 2026-08-04T09:06:19Z
 # count: 4
 # sources: suno_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
