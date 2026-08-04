@@ -1,6 +1,6 @@
 # factory
 # factory AI destinations
-# generated: 2026-08-04T14:38:27Z
+# generated: 2026-08-04T19:55:30Z
 # count: 1
 # sources: factory_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
