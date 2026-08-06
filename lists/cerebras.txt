@@ -1,6 +1,6 @@
 # cerebras
 # cerebras AI destinations
-# generated: 2026-08-06T07:11:43Z
+# generated: 2026-08-06T12:55:33Z
 # count: 1
 # sources: cerebras_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
