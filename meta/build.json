@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T06:41:54Z",
+  "generated_at": "2026-08-07T12:30:38Z",
   "lists": {
     "adobe-firefly": {
       "path": "lists/adobe-firefly.txt",
@@ -86,7 +86,7 @@
     },
     "bytedance-ai": {
       "path": "lists/bytedance-ai.txt",
-      "count": 38,
+      "count": 37,
       "sources": [
         "bytedance-ai_domains"
       ],
@@ -95,7 +95,7 @@
     },
     "bytedance-cn": {
       "path": "lists/bytedance-cn.txt",
-      "count": 21,
+      "count": 13,
       "sources": [
         "bytedance-cn_domains"
       ],
@@ -329,7 +329,7 @@
     },
     "google-ai": {
       "path": "lists/google-ai.txt",
-      "count": 118,
+      "count": 123,
       "sources": [
         "goog_ipv4_only",
         "google-ai_domains"
@@ -573,7 +573,7 @@
     },
     "openai": {
       "path": "lists/openai.txt",
-      "count": 45,
+      "count": 44,
       "sources": [
         "openai_network_cidrs",
         "openai_domains"
@@ -727,7 +727,7 @@
     },
     "stepfun": {
       "path": "lists/stepfun.txt",
-      "count": 5,
+      "count": 4,
       "sources": [
         "stepfun_domains"
       ],
@@ -808,7 +808,7 @@
     },
     "xai": {
       "path": "lists/xai.txt",
-      "count": 5,
+      "count": 6,
       "sources": [
         "xai_domains"
       ],
@@ -862,7 +862,7 @@
     },
     "all": {
       "path": "lists/all.txt",
-      "count": 553,
+      "count": 567,
       "sources": [
         "adobe-firefly",
         "alibaba-ai",
@@ -978,10 +978,10 @@
     }
   },
   "warnings": [
-    "amazon-q_domains: unresolved domains: aws.dev, awsstatic.com, console.aws.a2z.com",
-    "anthropic_domains: unresolved domains: cdn.anthropic.com, mcp.anthropic.com, claudeusercontent.com, claudemcpcontent.com, statsig.anthropic.com, modelcontextprotocol.com, claudemcpclient.com, anthropic.com.cn",
+    "amazon-q_domains: unresolved domains: awsstatic.com, aws.dev, console.aws.a2z.com",
+    "anthropic_domains: unresolved domains: cdn.anthropic.com, claudemcpclient.com, claudemcpcontent.com, mcp.anthropic.com, claudeusercontent.com, modelcontextprotocol.com, statsig.anthropic.com, anthropic.com.cn",
     "bytedance-ai_domains: unresolved domains: byteoversea.com, ciciaicdn.com",
-    "cursor_domains: unresolved domains: api5.cursor.sh, authentication.cursor.sh, us-eu.gcpp.cursor.sh, cursorapi.com, us-asia.gcpp.cursor.sh",
+    "cursor_domains: unresolved domains: authentication.cursor.sh, api5.cursor.sh, us-asia.gcpp.cursor.sh, us-eu.gcpp.cursor.sh, cursorapi.com",
     "deepseek_domains: unresolved domains: coder.deepseek.com",
     "dia-browser_domains: unresolved domains: diabrowser.engineering",
     "elevenlabs_domains: unresolved domains: elevenlabs.com",
