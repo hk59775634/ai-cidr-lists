@@ -1,6 +1,6 @@
 # phind
 # phind AI destinations
-# generated: 2026-08-13T00:39:34Z
+# generated: 2026-08-13T06:46:35Z
 # count: 2
 # sources: phind_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
