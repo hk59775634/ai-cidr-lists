@@ -1,6 +1,6 @@
 # midjourney
 # midjourney AI destinations
-# generated: 2026-08-14T12:30:11Z
+# generated: 2026-08-14T18:32:42Z
 # count: 2
 # sources: midjourney_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
