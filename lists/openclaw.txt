@@ -1,6 +1,6 @@
 # openclaw
 # openclaw AI destinations
-# generated: 2026-08-15T12:26:05Z
+# generated: 2026-08-15T18:25:32Z
 # count: 1
 # sources: openclaw_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
