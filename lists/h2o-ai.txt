@@ -1,6 +1,6 @@
 # h2o-ai
 # h2o-ai AI destinations
-# generated: 2026-08-16T12:26:10Z
+# generated: 2026-08-16T18:25:37Z
 # count: 4
 # sources: h2o-ai_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
