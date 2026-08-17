@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T12:26:44Z",
+  "generated_at": "2026-08-17T18:26:40Z",
   "lists": {
     "adobe-firefly": {
       "path": "lists/adobe-firefly.txt",
@@ -86,7 +86,7 @@
     },
     "bytedance-ai": {
       "path": "lists/bytedance-ai.txt",
-      "count": 38,
+      "count": 30,
       "sources": [
         "bytedance-ai_domains"
       ],
@@ -203,7 +203,7 @@
     },
     "cursor": {
       "path": "lists/cursor.txt",
-      "count": 43,
+      "count": 42,
       "sources": [
         "cursor_domains"
       ],
@@ -727,7 +727,7 @@
     },
     "stepfun": {
       "path": "lists/stepfun.txt",
-      "count": 5,
+      "count": 4,
       "sources": [
         "stepfun_domains"
       ],
@@ -763,7 +763,7 @@
     },
     "tencent-ai": {
       "path": "lists/tencent-ai.txt",
-      "count": 3,
+      "count": 2,
       "sources": [
         "tencent-ai_domains"
       ],
@@ -790,7 +790,7 @@
     },
     "v0": {
       "path": "lists/v0.txt",
-      "count": 4,
+      "count": 3,
       "sources": [
         "v0_domains"
       ],
@@ -799,7 +799,7 @@
     },
     "windsurf": {
       "path": "lists/windsurf.txt",
-      "count": 3,
+      "count": 2,
       "sources": [
         "windsurf_domains"
       ],
@@ -808,7 +808,7 @@
     },
     "xai": {
       "path": "lists/xai.txt",
-      "count": 5,
+      "count": 6,
       "sources": [
         "xai_domains"
       ],
@@ -817,7 +817,7 @@
     },
     "yi": {
       "path": "lists/yi.txt",
-      "count": 20,
+      "count": 13,
       "sources": [
         "yi_domains"
       ],
@@ -853,7 +853,7 @@
     },
     "zhipu": {
       "path": "lists/zhipu.txt",
-      "count": 28,
+      "count": 25,
       "sources": [
         "zhipu_domains"
       ],
@@ -862,7 +862,7 @@
     },
     "all": {
       "path": "lists/all.txt",
-      "count": 563,
+      "count": 549,
       "sources": [
         "adobe-firefly",
         "alibaba-ai",
@@ -978,10 +978,10 @@
     }
   },
   "warnings": [
-    "amazon-q_domains: unresolved domains: aws.dev, console.aws.a2z.com, awsstatic.com",
-    "anthropic_domains: unresolved domains: claudemcpcontent.com, cdn.anthropic.com, mcp.anthropic.com, statsig.anthropic.com, claudemcpclient.com, modelcontextprotocol.com, anthropic.com.cn",
-    "bytedance-ai_domains: unresolved domains: ciciaicdn.com, byteoversea.com",
-    "cursor_domains: unresolved domains: authentication.cursor.sh, us-asia.gcpp.cursor.sh, us-eu.gcpp.cursor.sh, cursorapi.com, api5.cursor.sh",
+    "amazon-q_domains: unresolved domains: awsstatic.com, console.aws.a2z.com, aws.dev",
+    "anthropic_domains: unresolved domains: cdn.anthropic.com, mcp.anthropic.com, statsig.anthropic.com, claudemcpclient.com, claudemcpcontent.com, modelcontextprotocol.com, anthropic.com.cn",
+    "bytedance-ai_domains: unresolved domains: byteoversea.com, ciciaicdn.com",
+    "cursor_domains: unresolved domains: api5.cursor.sh, us-asia.gcpp.cursor.sh, us-eu.gcpp.cursor.sh, cursorapi.com, authentication.cursor.sh",
     "deepseek_domains: unresolved domains: coder.deepseek.com",
     "dia-browser_domains: unresolved domains: diabrowser.engineering",
     "elevenlabs_domains: unresolved domains: elevenlabs.com",
