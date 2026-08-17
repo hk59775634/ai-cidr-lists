@@ -1,6 +1,6 @@
 # crewai
 # crewai AI destinations
-# generated: 2026-08-17T00:27:52Z
+# generated: 2026-08-17T06:27:50Z
 # count: 1
 # sources: crewai_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
