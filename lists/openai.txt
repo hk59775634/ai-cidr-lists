@@ -1,6 +1,6 @@
 # openai
 # openai AI destinations
-# generated: 2026-08-17T06:27:50Z
+# generated: 2026-08-17T12:26:44Z
 # count: 45
 # sources: openai_network_cidrs, openai_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
@@ -33,7 +33,7 @@
 104.18.43.204/32
 146.75.30.208/32
 150.171.109.65/32
-150.171.109.72/32
+150.171.109.74/32
 150.171.110.193/32
 162.159.140.245/32
 172.64.144.52/32
