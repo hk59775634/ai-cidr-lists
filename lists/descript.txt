@@ -1,6 +1,6 @@
 # descript
 # descript AI destinations
-# generated: 2026-08-18T06:26:59Z
+# generated: 2026-08-18T12:26:44Z
 # count: 1
 # sources: descript_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
