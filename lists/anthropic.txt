@@ -1,6 +1,6 @@
 # anthropic
 # anthropic AI destinations
-# generated: 2026-08-22T06:26:25Z
+# generated: 2026-08-22T12:26:11Z
 # count: 8
 # sources: anthropic_inbound_docs, anthropic_network_cidrs, anthropic_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
@@ -11,5 +11,5 @@
 160.79.104.0/21
 160.79.104.0/23
 160.79.104.10/32
-169.150.249.163/32
+169.150.249.162/32
 172.64.150.238/32
