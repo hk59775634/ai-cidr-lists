@@ -1,6 +1,6 @@
 # genspark
 # genspark AI destinations
-# generated: 2026-08-23T12:26:14Z
+# generated: 2026-08-23T18:25:27Z
 # count: 2
 # sources: genspark_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
