@@ -1,6 +1,6 @@
 # synthesia
 # synthesia AI destinations
-# generated: 2026-08-25T18:26:52Z
+# generated: 2026-08-26T00:27:53Z
 # count: 1
 # sources: synthesia_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
