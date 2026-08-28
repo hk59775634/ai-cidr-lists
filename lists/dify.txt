@@ -1,6 +1,6 @@
 # dify
 # dify AI destinations
-# generated: 2026-08-28T09:25:08Z
+# generated: 2026-08-28T16:24:10Z
 # count: 3
 # sources: dify_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
