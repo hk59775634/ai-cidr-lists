@@ -1,6 +1,6 @@
 # zed
 # zed AI destinations
-# generated: 2026-08-30T01:02:46Z
+# generated: 2026-08-30T06:35:42Z
 # count: 2
 # sources: zed_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
