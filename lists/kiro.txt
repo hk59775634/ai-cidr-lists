@@ -1,11 +1,11 @@
 # kiro
 # kiro AI destinations
-# generated: 2026-08-29T18:26:22Z
+# generated: 2026-08-30T01:02:46Z
 # count: 4
 # sources: kiro_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
 
-3.168.86.5/32
-3.168.86.32/32
-3.168.86.43/32
-3.168.86.71/32
+18.161.6.50/32
+18.161.6.78/32
+18.161.6.82/32
+18.161.6.101/32
