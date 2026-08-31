@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T01:04:13Z",
+  "generated_at": "2026-08-31T06:48:45Z",
   "lists": {
     "adobe-firefly": {
       "path": "lists/adobe-firefly.txt",
@@ -86,7 +86,7 @@
     },
     "bytedance-ai": {
       "path": "lists/bytedance-ai.txt",
-      "count": 36,
+      "count": 37,
       "sources": [
         "bytedance-ai_domains"
       ],
@@ -95,7 +95,7 @@
     },
     "bytedance-cn": {
       "path": "lists/bytedance-cn.txt",
-      "count": 21,
+      "count": 13,
       "sources": [
         "bytedance-cn_domains"
       ],
@@ -203,7 +203,7 @@
     },
     "cursor": {
       "path": "lists/cursor.txt",
-      "count": 43,
+      "count": 41,
       "sources": [
         "cursor_domains"
       ],
@@ -790,7 +790,7 @@
     },
     "v0": {
       "path": "lists/v0.txt",
-      "count": 4,
+      "count": 3,
       "sources": [
         "v0_domains"
       ],
@@ -862,7 +862,7 @@
     },
     "all": {
       "path": "lists/all.txt",
-      "count": 587,
+      "count": 585,
       "sources": [
         "adobe-firefly",
         "alibaba-ai",
@@ -978,11 +978,11 @@
     }
   },
   "warnings": [
-    "amazon-q_domains: unresolved domains: aws.dev, awsstatic.com, console.aws.a2z.com",
-    "anthropic_domains: unresolved domains: cdn.anthropic.com, claudemcpcontent.com, mcp.anthropic.com, claudemcpclient.com, anthropic.team, statsig.anthropic.com, modelcontextprotocol.com, chatbotclaude.com, anthropic.com.cn",
+    "amazon-q_domains: unresolved domains: awsstatic.com, aws.dev, console.aws.a2z.com",
+    "anthropic_domains: unresolved domains: cdn.anthropic.com, anthropic.team, claudemcpclient.com, mcp.anthropic.com, statsig.anthropic.com, chatbotclaude.com, claudemcpcontent.com, modelcontextprotocol.com, anthropic.com.cn",
     "bytedance-ai_domains: unresolved domains: byteoversea.com, ciciaicdn.com",
     "comfyui_domains: unresolved domains: comfyregistry.org",
-    "cursor_domains: unresolved domains: api5.cursor.sh, authentication.cursor.sh, us-asia.gcpp.cursor.sh, cursorapi.com, us-eu.gcpp.cursor.sh",
+    "cursor_domains: unresolved domains: authentication.cursor.sh, api5.cursor.sh, us-eu.gcpp.cursor.sh, us-asia.gcpp.cursor.sh, cursorapi.com",
     "deepseek_domains: unresolved domains: coder.deepseek.com",
     "dia-browser_domains: unresolved domains: diabrowser.engineering",
     "elevenlabs_domains: unresolved domains: elevenlabs.com",
