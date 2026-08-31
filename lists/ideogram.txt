@@ -1,6 +1,6 @@
 # ideogram
 # ideogram AI destinations
-# generated: 2026-08-31T12:37:00Z
+# generated: 2026-08-31T18:30:35Z
 # count: 2
 # sources: ideogram_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
