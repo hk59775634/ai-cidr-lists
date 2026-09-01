@@ -1,6 +1,6 @@
 # character-ai
 # character-ai AI destinations
-# generated: 2026-09-01T06:41:18Z
+# generated: 2026-09-01T12:35:38Z
 # count: 2
 # sources: character-ai_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
