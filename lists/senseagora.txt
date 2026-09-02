@@ -1,6 +1,6 @@
 # senseagora
 # senseagora AI destinations
-# generated: 2026-09-02T12:37:13Z
+# generated: 2026-09-02T18:31:09Z
 # count: 2
 # sources: senseagora_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
