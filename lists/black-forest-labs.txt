@@ -1,6 +1,6 @@
 # black-forest-labs
 # black-forest-labs AI destinations
-# generated: 2026-09-03T01:00:38Z
+# generated: 2026-09-03T06:40:46Z
 # count: 1
 # sources: black-forest-labs_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url

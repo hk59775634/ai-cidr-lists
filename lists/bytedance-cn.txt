@@ -1,7 +1,7 @@
 # bytedance-cn
 # bytedance-cn AI destinations
-# generated: 2026-09-03T01:00:38Z
-# count: 21
+# generated: 2026-09-03T06:40:46Z
+# count: 13
 # sources: bytedance-cn_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
 
@@ -18,11 +18,3 @@
 101.126.7.76/32
 101.126.58.181/32
 122.14.229.28/32
-163.181.246.188/32
-163.181.246.189/32
-163.181.246.190/32
-163.181.246.191/32
-163.181.246.192/32
-163.181.246.193/32
-163.181.246.194/32
-163.181.246.195/32
