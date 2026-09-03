@@ -1,6 +1,6 @@
 # openrouter
 # openrouter AI destinations
-# generated: 2026-09-03T12:37:17Z
+# generated: 2026-09-03T18:31:07Z
 # count: 2
 # sources: openrouter_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
