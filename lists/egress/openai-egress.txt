@@ -1,7 +1,7 @@
 # openai-egress
 # OpenAI published outbound ranges (connectors / agents / crawlers)
-# generated: 2026-09-04T12:36:05Z
-# count: 1561
+# generated: 2026-09-04T18:27:42Z
+# count: 1564
 # sources: chatgpt_connectors, chatgpt_agents, gptbot, searchbot, chatgpt_user
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
 
@@ -1071,7 +1071,6 @@
 52.254.129.160/28
 52.255.109.80/28
 52.255.109.96/28
-52.255.109.112/28
 52.255.109.144/28
 52.255.111.0/28
 52.255.111.80/28
@@ -1544,8 +1543,12 @@
 173.195.76.0/26
 180.222.194.124/30
 184.73.124.134/32
+191.232.238.96/28
+191.233.197.0/28
 191.233.199.160/28
 191.233.251.27/32
+191.234.167.144/28
+191.235.99.160/28
 191.237.249.64/28
 194.46.223.16/28
 195.171.64.176/28
