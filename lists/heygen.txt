@@ -1,6 +1,6 @@
 # heygen
 # heygen AI destinations
-# generated: 2026-09-05T00:56:41Z
+# generated: 2026-09-05T06:35:09Z
 # count: 2
 # sources: heygen_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
