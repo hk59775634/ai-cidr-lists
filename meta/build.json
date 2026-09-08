@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T06:39:32Z",
+  "generated_at": "2026-09-08T12:36:07Z",
   "lists": {
     "adobe-firefly": {
       "path": "lists/adobe-firefly.txt",
@@ -86,7 +86,7 @@
     },
     "bytedance-ai": {
       "path": "lists/bytedance-ai.txt",
-      "count": 29,
+      "count": 35,
       "sources": [
         "bytedance-ai_domains"
       ],
@@ -573,7 +573,7 @@
     },
     "openai": {
       "path": "lists/openai.txt",
-      "count": 45,
+      "count": 43,
       "sources": [
         "openai_network_cidrs",
         "openai_domains"
@@ -727,7 +727,7 @@
     },
     "stepfun": {
       "path": "lists/stepfun.txt",
-      "count": 4,
+      "count": 5,
       "sources": [
         "stepfun_domains"
       ],
@@ -790,7 +790,7 @@
     },
     "v0": {
       "path": "lists/v0.txt",
-      "count": 4,
+      "count": 3,
       "sources": [
         "v0_domains"
       ],
@@ -817,7 +817,7 @@
     },
     "yi": {
       "path": "lists/yi.txt",
-      "count": 20,
+      "count": 19,
       "sources": [
         "yi_domains"
       ],
@@ -862,7 +862,7 @@
     },
     "all": {
       "path": "lists/all.txt",
-      "count": 584,
+      "count": 583,
       "sources": [
         "adobe-firefly",
         "alibaba-ai",
@@ -978,8 +978,8 @@
     }
   },
   "warnings": [
-    "amazon-q_domains: unresolved domains: awsstatic.com, aws.dev, console.aws.a2z.com",
-    "anthropic_domains: unresolved domains: cdn.anthropic.com, anthropic.team, mcp.anthropic.com, claudemcpclient.com, statsig.anthropic.com, modelcontextprotocol.com, claudemcpcontent.com, chatbotclaude.com, anthropic.com.cn",
+    "amazon-q_domains: unresolved domains: aws.dev, console.aws.a2z.com, awsstatic.com",
+    "anthropic_domains: unresolved domains: cdn.anthropic.com, claudemcpcontent.com, mcp.anthropic.com, claudemcpclient.com, chatbotclaude.com, anthropic.team, modelcontextprotocol.com, statsig.anthropic.com, anthropic.com.cn",
     "bytedance-ai_domains: unresolved domains: byteoversea.com, ciciaicdn.com",
     "comfyui_domains: unresolved domains: comfyregistry.org",
     "cursor_domains: unresolved domains: api5.cursor.sh, authentication.cursor.sh, us-eu.gcpp.cursor.sh, us-asia.gcpp.cursor.sh, cursorapi.com",
