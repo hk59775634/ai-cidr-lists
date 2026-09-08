@@ -1,6 +1,6 @@
 # deepseek
 # deepseek AI destinations
-# generated: 2026-09-08T12:36:07Z
+# generated: 2026-09-08T18:30:41Z
 # count: 1
 # sources: deepseek_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url

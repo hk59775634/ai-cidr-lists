@@ -1,10 +1,10 @@
 # otter-ai
 # otter-ai AI destinations
-# generated: 2026-09-08T12:36:07Z
+# generated: 2026-09-08T18:30:41Z
 # count: 3
 # sources: otter-ai_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
 
-32.188.112.141/32
 35.166.207.33/32
-44.229.114.249/32
+44.236.96.93/32
+50.112.108.192/32
