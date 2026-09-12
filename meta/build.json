@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T18:29:21Z",
+  "generated_at": "2026-09-12T00:56:29Z",
   "lists": {
     "adobe-firefly": {
       "path": "lists/adobe-firefly.txt",
@@ -86,7 +86,7 @@
     },
     "bytedance-ai": {
       "path": "lists/bytedance-ai.txt",
-      "count": 35,
+      "count": 36,
       "sources": [
         "bytedance-ai_domains"
       ],
@@ -203,7 +203,7 @@
     },
     "cursor": {
       "path": "lists/cursor.txt",
-      "count": 46,
+      "count": 41,
       "sources": [
         "cursor_domains"
       ],
@@ -573,7 +573,7 @@
     },
     "openai": {
       "path": "lists/openai.txt",
-      "count": 45,
+      "count": 44,
       "sources": [
         "openai_network_cidrs",
         "openai_domains"
@@ -727,7 +727,7 @@
     },
     "stepfun": {
       "path": "lists/stepfun.txt",
-      "count": 5,
+      "count": 4,
       "sources": [
         "stepfun_domains"
       ],
@@ -790,7 +790,7 @@
     },
     "v0": {
       "path": "lists/v0.txt",
-      "count": 4,
+      "count": 3,
       "sources": [
         "v0_domains"
       ],
@@ -808,7 +808,7 @@
     },
     "xai": {
       "path": "lists/xai.txt",
-      "count": 6,
+      "count": 5,
       "sources": [
         "xai_domains"
       ],
@@ -862,7 +862,7 @@
     },
     "all": {
       "path": "lists/all.txt",
-      "count": 594,
+      "count": 583,
       "sources": [
         "adobe-firefly",
         "alibaba-ai",
@@ -965,7 +965,7 @@
     },
     "egress/openai-egress": {
       "path": "lists/egress/openai-egress.txt",
-      "count": 1570,
+      "count": 1574,
       "sources": [
         "chatgpt_connectors",
         "chatgpt_agents",
@@ -978,11 +978,11 @@
     }
   },
   "warnings": [
-    "amazon-q_domains: unresolved domains: aws.dev, awsstatic.com, console.aws.a2z.com",
-    "anthropic_domains: unresolved domains: cdn.anthropic.com, claudemcpcontent.com, anthropic.team, mcp.anthropic.com, statsig.anthropic.com, modelcontextprotocol.com, claudemcpclient.com, chatbotclaude.com, anthropic.com.cn",
+    "amazon-q_domains: unresolved domains: aws.dev, console.aws.a2z.com, awsstatic.com",
+    "anthropic_domains: unresolved domains: cdn.anthropic.com, anthropic.team, mcp.anthropic.com, claudemcpclient.com, chatbotclaude.com, claudemcpcontent.com, statsig.anthropic.com, modelcontextprotocol.com, anthropic.com.cn",
     "bytedance-ai_domains: unresolved domains: byteoversea.com, ciciaicdn.com",
     "comfyui_domains: unresolved domains: comfyregistry.org",
-    "cursor_domains: unresolved domains: authentication.cursor.sh, api5.cursor.sh, us-eu.gcpp.cursor.sh, us-asia.gcpp.cursor.sh, cursorapi.com",
+    "cursor_domains: unresolved domains: authentication.cursor.sh, api5.cursor.sh, us-asia.gcpp.cursor.sh, us-eu.gcpp.cursor.sh, cursorapi.com",
     "deepseek_domains: unresolved domains: coder.deepseek.com",
     "dia-browser_domains: unresolved domains: diabrowser.engineering",
     "elevenlabs_domains: unresolved domains: elevenlabs.com",
