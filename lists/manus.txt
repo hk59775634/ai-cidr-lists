@@ -1,11 +1,11 @@
 # manus
 # manus AI destinations
-# generated: 2026-09-12T18:25:57Z
+# generated: 2026-09-13T01:04:15Z
 # count: 4
 # sources: manus_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
 
-3.171.38.16/32
-3.171.38.17/32
-3.171.38.88/32
-3.171.38.90/32
+3.164.92.10/32
+3.164.92.42/32
+3.164.92.54/32
+3.164.92.82/32
