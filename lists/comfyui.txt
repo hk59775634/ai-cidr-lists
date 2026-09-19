@@ -1,6 +1,6 @@
 # comfyui
 # comfyui AI destinations
-# generated: 2026-09-19T00:57:51Z
+# generated: 2026-09-19T06:36:30Z
 # count: 2
 # sources: comfyui_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
