@@ -1,8 +1,9 @@
 # baichuan
 # baichuan AI destinations
-# generated: 2026-09-22T06:40:43Z
-# count: 1
+# generated: 2026-09-22T12:36:15Z
+# count: 2
 # sources: baichuan_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
 
 39.106.52.182/32
+59.110.244.122/32
