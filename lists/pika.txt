@@ -1,9 +1,9 @@
 # pika
 # pika AI destinations
-# generated: 2026-09-25T06:42:11Z
+# generated: 2026-09-25T12:37:31Z
 # count: 2
 # sources: pika_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
 
-64.239.109.65/32
-64.239.123.65/32
+64.239.109.129/32
+64.239.123.129/32
