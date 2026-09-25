@@ -1,6 +1,6 @@
 # google-ai
 # google-ai AI destinations
-# generated: 2026-09-25T00:59:16Z
+# generated: 2026-09-25T06:42:11Z
 # count: 160
 # sources: goog_ipv4_only, google-ai_domains
 # format: one IPv4 CIDR per line — compatible with qosnat2 Alias.url
